@@ -1,7 +1,9 @@
 W::Application.routes.draw do
   get "user/login"
-
+  
   get "user/create"
+
+  post "user/new"
 
   get "user/profile"
 
