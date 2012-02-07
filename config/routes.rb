@@ -1,4 +1,12 @@
 W::Application.routes.draw do
+  get "user/login"
+
+  get "user/create"
+
+  get "user/profile"
+
+  get "user/settings"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
