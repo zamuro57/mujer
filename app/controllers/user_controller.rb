@@ -5,7 +5,7 @@ class UserController < ApplicationController
     
     respond_to do |format|
       if @user.save
-        format.html { redirect_to :action=> 'profile', notice: 'User has been created, you have to confirm your email' }  
+        format.html { redirect_to :action=> 'profile', notice: 'User has been created, we send you a email to confirm your account' }  
         format.html { render json: @user, status: :created, location: @user}
       else
         format.html { render action:'new'}

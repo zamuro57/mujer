@@ -7,6 +7,7 @@ class EmailValidator < ActiveModel::EachValidator
 end
 
 class User < ActiveRecord::Base
+  
   validates :username, presence: true, uniqueness: true, :length => { :maximum => 20 }
   validates :email, presence: true, uniqueness: true, email:true
   validates :name, presence: true
