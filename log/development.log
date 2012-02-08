@@ -3648,3 +3648,1256 @@ Served asset /sessions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 17:11:17 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.2ms)
+Rendered user/new.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+    20: 	<div class="field">
+    21:     	<%= f.label :password, 'Password' %>
+    22:     	<%= f.password_field :password, size:40 %>
+    23:     	<% unless @user.errors.messages[:password_digest].empty? %>
+    24: 			<span class="validation-error"> 
+    25: 				<%= @user.errors.messages[:password_digest].each { |msg| }.join(",") %>
+    26: 			</span>
+  app/views/user/_new_form.html.erb:23:in `block in _app_views_user__new_form_html_erb___230754255627573456_28057560'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_28057560'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (7.4ms)
+Rendered user/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:11:59 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 08 Feb 2012 21:49:54 UTC +00:00], ["email", "asdasd@adad.com"], ["name", "aa"], ["password_digest", "$2a$10$97funIeuy4n/v3p..X1DPO7ki.VjZMuLY0PtwmL65sQjh.9LuDcKi"], ["updated_at", Wed, 08 Feb 2012 21:49:54 UTC +00:00], ["username", "aa"]]
+Redirected to http://localhost:3000/user?notice=User+has+been+created%2C+you+have+to+confirm+your+email
+Completed 302 Found in 215ms
+
+
+Started GET "/user?notice=User+has+been+created%2C+you+have+to+confirm+your+email" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, you have to confirm your email"}
+Rendered user/profile.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:19:54 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (157.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password_digest" varchar(255)) 
+  [1m[36m (118.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (137.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (115.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120208200058')[0m
+  [1m[35m (77.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120208191032')
+  [1m[36m (77.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120207003633')[0m
+  [1m[35m (77.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120208191528')
+  [1m[36m (77.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120208193342')[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:24:11 -0430
+
+SyntaxError (/home/sergio/Desktop/w/app/models/user.rb:12: syntax error, unexpected '{', expecting keyword_end
+  validates :password_digest, :length{ in 6 .. 16}
+                                      ^
+/home/sergio/Desktop/w/app/models/user.rb:12: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/user_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:24:29 -0430
+
+SyntaxError (/home/sergio/Desktop/w/app/models/user.rb:12: syntax error, unexpected keyword_in, expecting '}'
+  validates :password_digest, :length =>{ in 6 .. 16}
+                                            ^
+/home/sergio/Desktop/w/app/models/user.rb:12: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/user_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 40ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:33 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 90ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:39 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.6ms)
+Rendered user/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:43 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 89ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:25:45 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (4.0ms)
+Rendered user/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 92ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:34 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 127ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:26:39 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 93ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (4.2ms)
+Rendered user/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 93ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:53 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:27:56 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 89ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:27:57 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:28:01 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 89ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:28:02 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.3ms)
+Rendered user/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 110ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:16 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:19 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.3ms)
+Rendered user/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 15ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:21 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.3ms)
+Rendered user/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 91ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:24 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:29:27 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:29:28 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.8ms)
+Rendered user/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:30:26 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 91ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:26 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:26 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:26 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:26 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:27 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:27 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:27 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:27 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (2.3ms)
+Rendered user/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 90ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:30:32 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (2.4ms)
+Rendered user/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 90ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:07 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 90ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:22 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:31:28 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 90ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:29 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aa", "name"=>"aa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.1ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 90ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:38 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aaaaaaaaaaaa", "name"=>"aaaaaaaaaaaa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (2.4ms)
+Rendered user/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 109ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:31:49 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aaaaaaaaaaaa", "name"=>"aaaaaaaaaaaa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (3.2ms)
+Rendered user/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:36 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:32:40 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"aaaaaaaaaaaa", "name"=>"aaaaaaaaaaaa", "email"=>"asdasd@adad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aaaaaaaaaaaa' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'asdasd@adad.com' LIMIT 1
+Rendered user/_new_form.html.erb (4.1ms)
+Rendered user/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 99ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:32:41 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"highercomve", "name"=>"Sergio Marin", "email"=>"higher.vnf@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'highercomve' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'higher.vnf@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 08 Feb 2012 22:03:11 UTC +00:00], ["email", "higher.vnf@gmail.com"], ["name", "Sergio Marin"], ["password_digest", "$2a$10$SqveuyBxT70pOnw48pkj0O8Tk.7AkUhc5SzPuS80vXil.QzYuETDC"], ["updated_at", Wed, 08 Feb 2012 22:03:11 UTC +00:00], ["username", "highercomve"]]
+Redirected to http://localhost:3000/user?notice=User+has+been+created%2C+you+have+to+confirm+your+email
+Completed 302 Found in 215ms
+
+
+Started GET "/user?notice=User+has+been+created%2C+you+have+to+confirm+your+email" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, you have to confirm your email"}
+Rendered user/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
+Served asset /application.js - 304 Not Modified (0ms)

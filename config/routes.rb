@@ -1,21 +1,14 @@
 W::Application.routes.draw do
   
-  get "sessions/login" => 'sessions#create'
-
-  post "sessions/login" => 'sessions#new'
-
-  get "sessions/logout" => 'sessions#destroy'
-  
-  post "user" => 'user#create', as: 'users_new'
-  post "user/new" => 'user#create', as: 'users_new'
-  
-  get "user/new" => 'user#new', as: 'users_new'
-
-  get "user" => 'user#profile', as: 'users'
-
-  get "user/profile"
-
-  get "user/settings"
+  get   "sessions/login" => 'sessions#create'
+  post  "sessions/login" => 'sessions#new'
+  get   "sessions/logout" => 'sessions#destroy'
+  post  "user" => 'user#create', as: 'users_new'
+  post  "user/new" => 'user#create', as: 'users_new'
+  get   "user/new" => 'user#new', as: 'users_new'
+  get   "user" => 'user#profile', as: 'users'
+  get   "user/profile"
+  get   "user/settings"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
