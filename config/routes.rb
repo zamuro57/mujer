@@ -1,6 +1,11 @@
 W::Application.routes.draw do
-  get "user/login"
   
+  get "sessions/login" => 'sessions#create'
+
+  post "sessions/login" => 'sessions#new'
+
+  get "sessions/logout" => 'sessions#destroy'
+
   get "user/create"
 
   post "user/new"

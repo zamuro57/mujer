@@ -1,10 +1,10 @@
 class UserController < ApplicationController
-  def login
-  end
-
+   
   def create
   end
-
+  def new
+    
+  end
   def profile
   end
   
