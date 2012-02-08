@@ -6,6 +6,7 @@ W::Application.routes.draw do
 
   get "sessions/logout" => 'sessions#destroy'
   
+  post "user" => 'user#create', as: 'users_new'
   post "user/new" => 'user#create', as: 'users_new'
   
   get "user/new" => 'user#new', as: 'users_new'

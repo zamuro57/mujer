@@ -717,3 +717,2934 @@ Migrating to AddNameToUsers (20120208191528)
   [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:48:12 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.4ms)
+Rendered user/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /user.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /user.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:48:13 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (5.9ms)
+Rendered user/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:49:38 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (5.9ms)
+Rendered user/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:50:41 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (25.4ms)
+Rendered user/new.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:51:13 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.1ms)
+Rendered user/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:01 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:52:07 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.1ms)
+Rendered user/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 14:52:08 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 14:56:46 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Completed 500 Internal Server Error in 98ms
+
+NoMethodError (undefined method `password_digest' for #<User:0x0000000381f0a8>):
+  app/controllers/user_controller.rb:7:in `block in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.1ms)
+Rendered user/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:05 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (26.7ms)
+Rendered user/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:00:15 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:00:16 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `password_digest' for #<User:0x000000034fc538>):
+  app/controllers/user_controller.rb:7:in `block in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208193342')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:04:01 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Completed 500 Internal Server Error in 45ms
+
+ActionView::MissingTemplate (Missing template user/create, application/create with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:05:03 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (2.0ms)
+Rendered user/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.errors):
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+    5: 			<ul>
+    6: 				<% @users.errors.full_messages.each do |msg| %>
+    7: 				<li><%= msg %></li>
+    8: 				<% end %>
+    9: 			</ul>
+  app/views/user/_new_form.html.erb:6:in `block in _app_views_user__new_form_html_erb___230754255627573456_20144200'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_20144200'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.1ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (4.4ms)
+Rendered user/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 16ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:05:33 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 17ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:03 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.7ms)
+Rendered user/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:05 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 17ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:06 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (4.1ms)
+Rendered user/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 18ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (4.6ms)
+Rendered user/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 22ms (Views: 10.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.7ms)
+Rendered user/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:07 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.7ms)
+Rendered user/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"adsad@ccc.vom", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'adsad@ccc.vom' LIMIT 1
+Rendered user/_new_form.html.erb (3.8ms)
+Rendered user/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 36ms (Views: 8.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:07:08 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.7ms)
+Rendered user/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:40 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (4.1ms)
+Rendered user/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 17ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:10:42 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (4.5ms)
+Rendered user/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:14:36 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (5.0ms)
+Rendered user/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 18ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:15:44 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (5.1ms)
+Rendered user/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:15 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (4.4ms)
+Rendered user/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 19ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:16:39 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (4.9ms)
+Rendered user/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 42ms (Views: 10.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:17:43 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password_digest" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","name") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","name") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","name") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120208193342'
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208193342')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:21:26 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `password_digest' for #<User:0x000000034a9ae0>):
+  app/controllers/user_controller.rb:7:in `block in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","name","password") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","name","password") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","name","password") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120208193342'
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to AddNameToUsers (20120208191528)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","name","password") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","password") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","password") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","password") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL)
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120208191528'
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "name" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208191528')
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208193342')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password" varchar(255), "name" varchar(255), "password_digest" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL, NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL, NULL)[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password" varchar(255), "name" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","password","name") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","password","name") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","password","name") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120208193342'
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208193342')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered user/_new_form.html.erb (4.2ms)
+Rendered user/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 18ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:30:08 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+Migrating to DeletePassword (20120208200058)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password" varchar(255), "name" varchar(255), "password_digest" varchar(255)) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL, NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at","password","name","password_digest") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL, NULL)
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "name" varchar(255), "password_digest" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658', NULL, NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657', NULL, NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at","name","password_digest") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668', NULL, NULL)[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120208200058')[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.9ms)
+Rendered user/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 18ms (Views: 9.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:45:35 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:46:03 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.5ms)
+Rendered user/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 17ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:04 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.3ms)
+Rendered user/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 20ms (Views: 10.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:46:36 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.4ms)
+Rendered user/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 23ms (Views: 11.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:06 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:47:18 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.9ms)
+Rendered user/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 18ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:47:19 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:47:36 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"asdasd", "name"=>"adsasd", "email"=>"asdasd@adad.com", "password_digest"=>"[FILTERED]", "password_digest_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+WARNING: Can't mass-assign protected attributes: password_digest
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: password_digest_confirmation):
+  app/controllers/user_controller.rb:4:in `new'
+  app/controllers/user_controller.rb:4:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:48:04 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"asdasd", "name"=>"adsasd", "email"=>"asdasd@adad.com", "password_digest"=>"[FILTERED]", "password_digest_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+WARNING: Can't mass-assign protected attributes: password_digest
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: password_digest_confirmation):
+  app/controllers/user_controller.rb:4:in `new'
+  app/controllers/user_controller.rb:4:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 15:48:10 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (6.5ms)
+Rendered user/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:10 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:10 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:10 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:11 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:11 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:11 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:11 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:11 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.4ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:48:37 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.1ms)
+Rendered user/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 36ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:26 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.4ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:27 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.2ms)
+Rendered user/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:48 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.4ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:49 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.5ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:49:50 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:52:39 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.6ms)
+Rendered user/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `password_digest' for #<ActiveSupport::OrderedHash:0x000000030d8ab0>):
+    20: 	<div class="field">
+    21:     	<%= f.label :password, 'Password' %>
+    22:     	<%= f.password_field :password, size:40 %>
+    23:     	<% unless @user.errors.messages.password_digest.empty? %>
+    24:     	<span class="validation-error">error de password</span>
+    25:     	<% end %>
+    26:   	</div>
+  app/views/user/_new_form.html.erb:23:in `block in _app_views_user__new_form_html_erb___230754255627573456_24548580'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_24548580'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.5ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:52:58 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.7ms)
+Rendered user/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `password' for #<ActiveSupport::OrderedHash:0x00000003908168>):
+    20: 	<div class="field">
+    21:     	<%= f.label :password, 'Password' %>
+    22:     	<%= f.password_field :password, size:40 %>
+    23:     	<% unless @user.errors.messages.password.empty? %>
+    24:     	<span class="validation-error">error de password</span>
+    25:     	<% end %>
+    26:   	</div>
+  app/views/user/_new_form.html.erb:23:in `block in _app_views_user__new_form_html_erb___230754255627573456_29455580'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_29455580'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.5ms)
+Rendered user/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 41ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:54:35 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:55:54 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (33.6ms)
+Rendered user/new.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined method `put' for #<#<Class:0x00000003338490>:0x00000003328270>):
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+    5: 			<%= put @user.errors.messages %>
+    6: 			<ul>
+    7: 				<% @user.errors.full_messages.each do |msg| %>
+    8: 				<li><%= msg %></li>
+  app/views/user/_new_form.html.erb:5:in `block in _app_views_user__new_form_html_erb___230754255627573456_26811160'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_26811160'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:56:09 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (14.7ms)
+Rendered user/new.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `put' for #<#<Class:0x0000000366b068>:0x0000000364a6d8>):
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+    5: 			<% put @user.errors.messages %>
+    6: 			<ul>
+    7: 				<% @user.errors.full_messages.each do |msg| %>
+    8: 				<li><%= msg %></li>
+  app/views/user/_new_form.html.erb:5:in `block in _app_views_user__new_form_html_erb___230754255627573456_28437320'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_28437320'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.2ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.9ms)
+Rendered user/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 18ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:56:22 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:56:43 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (2.8ms)
+Rendered user/new.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined method `password_digest' for #<ActiveSupport::OrderedHash:0x00000002ec8d60>):
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+    5: 			<%= @user.errors.messages.password_digest %>
+    6: 			<ul>
+    7: 				<% @user.errors.full_messages.each do |msg| %>
+    8: 				<li><%= msg %></li>
+  app/views/user/_new_form.html.erb:5:in `block in _app_views_user__new_form_html_erb___230754255627573456_31886960'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_31886960'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:57:16 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.5ms)
+Rendered user/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:17 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:57:49 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (14.9ms)
+Rendered user/new.html.erb within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `password_digest' for #<#<Class:0x00000003b0b6b8>:0x00000003b02928>):
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+    5: 			<%= @user.errors.messages[password_digest] %>
+    6: 			
+    7: 			<ul>
+    8: 				<% @user.errors.full_messages.each do |msg| %>
+  app/views/user/_new_form.html.erb:5:in `block in _app_views_user__new_form_html_erb___230754255627573456_30799200'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb___230754255627573456_30799200'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.4ms)
+Rendered user/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 41ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 15:57:59 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (6.0ms)
+Rendered user/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 21ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:00:43 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.7ms)
+Rendered user/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 11.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:22 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:01:40 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.1ms)
+Rendered user/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 16ms (Views: 8.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:01:41 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:04:17 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.5ms)
+Rendered user/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.5ms)
+Rendered user/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 36ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:18 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.4ms)
+Rendered user/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.4ms)
+Rendered user/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:19 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.8ms)
+Rendered user/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:04:20 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:13:37 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+ERROR: compiling _app_views_user__new_form_html_erb___230754255627573456_30216200 RAISED /home/sergio/Desktop/w/app/views/user/_new_form.html.erb:25: syntax error, unexpected tLBRACE_ARG, expecting ')'
+...rs.messages[:password_digest] { |msg| }.join(",") );@output_...
+...                               ^
+Function body:           def _app_views_user__new_form_html_erb___230754255627573456_30216200(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "user/_new_form";_old_output_buffer = @output_buffer;new_form = local_assigns[:new_form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for(@user, :url=>{:action => "new"}) do |f| @output_buffer.safe_concat('
+');	 if @user.errors.any? 
+@output_buffer.safe_concat('		<div id="error_explain">
+			<h2> ');@output_buffer.append= ( pluralize(@user.errors.count, "error") );@output_buffer.safe_concat(' </h2>
+		</div>
+');	 end 
+@output_buffer.safe_concat('	
+	<div class="field">
+		');@output_buffer.append= ( f.label 'Username' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.text_field :username,size: 40 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label 'Full Name' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.text_field :name,size: 40 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label 'Email' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.email_field :email,size: 40 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+    	');@output_buffer.append= ( f.label :password, 'Password' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    	');@output_buffer.append= ( f.password_field :password, size:40 );@output_buffer.safe_concat('
+');    	 unless @user.errors.messages[:password_digest].empty? 
+@output_buffer.safe_concat('			<span class="validation-error"> 
+				');@output_buffer.append= ( @user.errors.messages[:password_digest] { |msg| }.join(",") );@output_buffer.safe_concat('
+');				 @user.errors.messages[:password_digest].each do |msg| 
+@output_buffer.safe_concat('					');@output_buffer.append= ( msg );@output_buffer.safe_concat(' 
+');				 end  
+@output_buffer.safe_concat('			</span>
+');		 end 
+@output_buffer.safe_concat('  	</div>
+	<div class="field">
+		');@output_buffer.append= ( f.label :password_confirmation, 'Confirm' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= ( f.password_field :password_confirmation, size:40 );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+		');@output_buffer.append= ( f.submit );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/partial_renderer.rb:256:in `render_partial'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/partial_renderer.rb:228:in `block (2 levels) in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/partial_renderer.rb:227:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/partial_renderer.rb:219:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/home/sergio/Desktop/w/app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:171:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/sergio/Desktop/w/app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/sergio/Desktop/w/app/controllers/user_controller.rb:6:in `create'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__1090118432860642208__process_action__2196158556298280549__callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/usr/lib/ruby/gems/1.9.1/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/usr/lib/ruby/gems/1.9.1/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/usr/lib/ruby/gems/1.9.1/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/conditionalget.rb:35:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/content_length.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/usr/lib/ruby/gems/1.9.1/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered user/_new_form.html.erb (0.9ms)
+Rendered user/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (/home/sergio/Desktop/w/app/views/user/_new_form.html.erb:25: syntax error, unexpected tLBRACE_ARG, expecting ')'
+...rs.messages[:password_digest] { |msg| }.join(",") );@output_...
+...                               ^):
+    22:     	<%= f.password_field :password, size:40 %>
+    23:     	<% unless @user.errors.messages[:password_digest].empty? %>
+    24: 			<span class="validation-error"> 
+    25: 				<%= @user.errors.messages[:password_digest] { |msg| }.join(",") %>
+    26: 				<% @user.errors.messages[:password_digest].each do |msg| %>
+    27: 					<%= msg %> 
+    28: 				<% end %> 
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3669707548254051011_26276740'
+  app/controllers/user_controller.rb:11:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.9ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (5.0ms)
+Rendered user/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 42ms (Views: 33.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:36 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (4.2ms)
+Rendered user/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:54 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 38ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.8ms)
+Rendered user/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:55 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.6ms)
+Rendered user/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/user/new" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WVADEShjKGQFks0MooGFPqmzyQamfsOHWCys8OGgRM8=", "user"=>{"username"=>"", "name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered user/_new_form.html.erb (3.9ms)
+Rendered user/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 16:17:56 -0430
+Served asset /application.js - 304 Not Modified (1ms)
