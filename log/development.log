@@ -9,3 +9,711 @@ Migrating to CreateUsers (20120207003633)
   [1m[35m (0.3ms)[0m  select sqlite_version(*)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-08 13:08:15 -0430
+Served asset /rails.png - 200 OK (19ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-08 13:08:23 -0430
+
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-08 13:09:01 -0430
+  Processing by UserController#create as HTML
+  [1m[36mSQL (57.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "first_name", "last_name", "updated_at", "user_name") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 08 Feb 2012 17:39:01 UTC +00:00], ["email", nil], ["first_name", nil], ["last_name", nil], ["updated_at", Wed, 08 Feb 2012 17:39:01 UTC +00:00], ["user_name", nil]]
+Completed 500 Internal Server Error in 211ms
+
+NameError (undefined local variable or method `profile_url' for #<UserController:0x0000000160dd20>):
+  app/controllers/user_controller.rb:8:in `block (2 levels) in create'
+  app/controllers/user_controller.rb:6:in `create'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-08 13:12:10 -0430
+  Processing by UserController#create as HTML
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "first_name", "last_name", "updated_at", "user_name") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 08 Feb 2012 17:42:10 UTC +00:00], ["email", nil], ["first_name", nil], ["last_name", nil], ["updated_at", Wed, 08 Feb 2012 17:42:10 UTC +00:00], ["user_name", nil]]
+Redirected to http://127.0.0.1:3000/user/profile?notice=User+has+been+created%2C+you+have+to+confirm+your+email
+Completed 302 Found in 136ms
+
+
+Started GET "/user/profile?notice=User+has+been+created%2C+you+have+to+confirm+your+email" for 127.0.0.1 at 2012-02-08 13:12:10 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, you have to confirm your email"}
+Rendered user/profile.html.erb within layouts/application (0.2ms)
+Compiled application.css  (15ms)  (pid 3727)
+Compiled sessions.css  (17ms)  (pid 3727)
+Compiled user.css  (1ms)  (pid 3727)
+Compiled application.js  (34ms)  (pid 3727)
+Compiled jquery.js  (24ms)  (pid 3727)
+Compiled jquery_ujs.js  (11ms)  (pid 3727)
+Compiled sessions.js  (381ms)  (pid 3727)
+Compiled user.js  (113ms)  (pid 3727)
+Completed 200 OK in 730ms (Views: 729.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /user.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /user.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 13:12:11 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 13:13:06 -0430
+
+ActionController::RoutingError (No route matches [GET] "/user/new"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-08 13:13:10 -0430
+  Processing by UserController#create as HTML
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "first_name", "last_name", "updated_at", "user_name") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 08 Feb 2012 17:43:10 UTC +00:00], ["email", nil], ["first_name", nil], ["last_name", nil], ["updated_at", Wed, 08 Feb 2012 17:43:10 UTC +00:00], ["user_name", nil]]
+Redirected to http://127.0.0.1:3000/user/profile?notice=User+has+been+created%2C+you+have+to+confirm+your+email
+Completed 302 Found in 124ms
+
+
+Started GET "/user/profile?notice=User+has+been+created%2C+you+have+to+confirm+your+email" for 127.0.0.1 at 2012-02-08 13:13:10 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, you have to confirm your email"}
+Rendered user/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+  Processing by UserController#new as HTML
+Rendered user/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:09 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+  Processing by UserController#new as HTML
+Rendered user/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-08 13:15:11 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:27:47 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (56.6ms)
+Rendered user/new.html.erb within layouts/application (86.9ms)
+Completed 500 Internal Server Error in 90ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004468828>:0x000000044647f0>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:28:53 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (34.0ms)
+Rendered user/new.html.erb within layouts/application (34.5ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004208998>:0x00000004204140>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:01 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (35.7ms)
+Rendered user/new.html.erb within layouts/application (36.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000003e0f170>:0x00000003e061b0>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:02 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (33.8ms)
+Rendered user/new.html.erb within layouts/application (34.2ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x000000042a0130>:0x0000000428b0a0>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:02 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.7ms)
+Rendered user/new.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x000000043abb60>:0x00000004399000>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:02 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (24.5ms)
+Rendered user/new.html.erb within layouts/application (25.0ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x007f34c40383d8>:0x007f34c401b3c8>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:02 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (33.7ms)
+Rendered user/new.html.erb within layouts/application (34.1ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004009070>:0x00000003fe62a0>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:02 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (35.3ms)
+Rendered user/new.html.erb within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x0000000428db48>:0x00000004282e00>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:03 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.8ms)
+Rendered user/new.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x000000043b7c80>:0x000000043a3f50>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:03 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.7ms)
+Rendered user/new.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x007f34c404b4d8>:0x007f34c4046988>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:03 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (35.1ms)
+Rendered user/new.html.erb within layouts/application (35.6ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004045638>:0x00000004041880>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:31:03 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (33.1ms)
+Rendered user/new.html.erb within layouts/application (33.6ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x0000000428d940>:0x00000004283058>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:35 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.2ms)
+Rendered user/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000003fb7b08>:0x00000003fb3f80>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:36 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.3ms)
+Rendered user/new.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004427530>:0x00000004420938>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:36 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.2ms)
+Rendered user/new.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x007f34c4067b38>:0x007f34c4061940>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:36 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (33.5ms)
+Rendered user/new.html.erb within layouts/application (33.9ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x0000000408ff80>:0x0000000407f8b0>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:36 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (21.9ms)
+Rendered user/new.html.erb within layouts/application (22.4ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004313e50>:0x0000000430bc00>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:36 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (15.6ms)
+Rendered user/new.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004569858>:0x00000004562c38>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:37 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (34.1ms)
+Rendered user/new.html.erb within layouts/application (34.5ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000003d7e9e0>:0x00000003d42d28>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:37 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (32.8ms)
+Rendered user/new.html.erb within layouts/application (33.2ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004124e00>:0x0000000411aba8>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:32:37 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (24.2ms)
+Rendered user/new.html.erb within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00000004348420>:0x00000004337620>):
+    1: <%= form_for(@user) do |f| %>
+    2: 	<% if @user.errors.any? %>
+    3: 		<div id="error_explain">
+    4: 			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:34:07 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (5.4ms)
+Rendered user/new.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `name' for #<User:0x0000000432b7a8>):
+    12: 	
+    13: 	<div class="field">
+    14: 		<%= f.label :name %>
+    15: 		<%= f.text_field :name,size: 40 %>
+    16: 	</div>
+    17: <% end %>
+  app/views/user/_new_form.html.erb:15:in `block in _app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-08 14:34:09 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (5.2ms)
+Rendered user/new.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for #<User:0x00000003aa8130>):
+    12: 	
+    13: 	<div class="field">
+    14: 		<%= f.label :name %>
+    15: 		<%= f.text_field :name,size: 40 %>
+    16: 	</div>
+    17: <% end %>
+  app/views/user/_new_form.html.erb:15:in `block in _app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/_new_form.html.erb:1:in `_app_views_user__new_form_html_erb__2854934149766387479_35741100'
+  app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___3631601577562683276_35855040'
+  app/controllers/user_controller.rb:20:in `new'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_name" varchar(255), "first_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_users" ("id","user_name","first_name","last_name","email","created_at","updated_at") VALUES (1, NULL, NULL, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "altered_users" ("id","user_name","first_name","last_name","email","created_at","updated_at") VALUES (2, NULL, NULL, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","user_name","first_name","last_name","email","created_at","updated_at") VALUES (3, NULL, NULL, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (1, NULL, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (2, NULL, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (3, NULL, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_name" varchar(255), "last_name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (1, NULL, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "altered_users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (2, NULL, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","user_name","last_name","email","created_at","updated_at") VALUES (3, NULL, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","user_name","email","created_at","updated_at") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "users" ("id","user_name","email","created_at","updated_at") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","user_name","email","created_at","updated_at") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "altered_users" ("id","username","email","created_at","updated_at") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_users" ("id","username","email","created_at","updated_at") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at") VALUES (1, NULL, NULL, '2012-02-08 17:39:01.285658', '2012-02-08 17:39:01.285658')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","username","email","created_at","updated_at") VALUES (2, NULL, NULL, '2012-02-08 17:42:10.202657', '2012-02-08 17:42:10.202657')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "users" ("id","username","email","created_at","updated_at") VALUES (3, NULL, NULL, '2012-02-08 17:43:10.809668', '2012-02-08 17:43:10.809668')[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_users"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120208191032')[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "users" ADD "name" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120208191528')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m

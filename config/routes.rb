@@ -5,10 +5,12 @@ W::Application.routes.draw do
   post "sessions/login" => 'sessions#new'
 
   get "sessions/logout" => 'sessions#destroy'
+  
+  post "user/new" => 'user#create', as: 'users_new'
+  
+  get "user/new" => 'user#new', as: 'users_new'
 
-  get "user/create"
-
-  post "user/new"
+  get "user" => 'user#profile', as: 'users'
 
   get "user/profile"
 

@@ -1,0 +1,17 @@
+<%= form_for(@user) do |f| %>
+	<% if @user.errors.any? %>
+		<div id="error_explain">
+			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+			<ul>
+				<% @users.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+	
+	<div class="field">
+		<%= f.label :name %>
+		<%= f.text_field :name,size: 40 %>
+	</div>
+<% end %>
