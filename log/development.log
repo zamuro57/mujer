@@ -6409,3 +6409,287 @@ Started GET "/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confir
   Parameters: {"notice"=>"User has been created, we send you a email to confirm your account"}
 Rendered user/profile.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Rendered user_mailer/created.html.erb (16.3ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to zamuro57@gmail.com (4135ms)
+Date: Thu, 09 Feb 2012 17:29:54 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Giovanny Ciriaco <zamuro57@gmail.com>
+Message-ID: <4f3441da574fd_214b5535fc83150@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman, Giovanny Ciriaco
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3441da47371_214b5535fc82885";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3441da47371_214b5535fc82885
+Date: Thu, 09 Feb 2012 17:29:54 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3441da51f63_214b5535fc829b5@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Giovanny Ciriaco
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: zamuro57.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3441da47371_214b5535fc82885
+Date: Thu, 09 Feb 2012 17:29:54 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3441da55514_214b5535fc830b1@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Giovanny Ciriaco for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: zamuro57.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3441da47371_214b5535fc82885--
+Rendered user_mailer/created.html.erb (0.3ms)
+Rendered user_mailer/created.text.erb (0.2ms)
+
+Sent mail to zamuro57@gmail.com (3149ms)
+Date: Thu, 09 Feb 2012 17:31:33 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Giovanny Ciriaco <zamuro57@gmail.com>
+Message-ID: <4f34423d8d775_214b5535fc8353f@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman, Giovanny Ciriaco
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f34423d8b037_214b5535fc832e5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f34423d8b037_214b5535fc832e5
+Date: Thu, 09 Feb 2012 17:31:33 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34423d8c9f3_214b5535fc833c8@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Giovanny Ciriaco
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: zamuro57.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f34423d8b037_214b5535fc832e5
+Date: Thu, 09 Feb 2012 17:31:33 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34423d8d1ee_214b5535fc83452@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Giovanny Ciriaco for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: zamuro57.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f34423d8b037_214b5535fc832e5--
+
+
+Started POST "/user/new" for 192.168.1.103 at 2012-02-09 17:34:13 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ipwJNLfmt7YiWtWy8sioJyLQE1OrS2FJl3xqX63hruM=", "user"=>{"username"=>"zamuro57", "name"=>"Giovanny Ciriaco", "email"=>"zamuro57@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = 'zamuro57' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = 'zamuro57@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 09 Feb 2012 22:04:13 UTC +00:00], ["email", "zamuro57@gmail.com"], ["name", "Giovanny Ciriaco"], ["password_digest", "$2a$10$X30eyGwg3TWuCLUuAZBhZ.YyeOMSIKm0Ug/ACIaw/LWW1hqYqvgYW"], ["updated_at", Thu, 09 Feb 2012 22:04:13 UTC +00:00], ["username", "zamuro57"]]
+Rendered user_mailer/created.html.erb (0.3ms)
+Rendered user_mailer/created.text.erb (0.2ms)
+
+Sent mail to zamuro57@gmail.com (272ms)
+Date: Thu, 09 Feb 2012 17:34:13 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Giovanny Ciriaco <zamuro57@gmail.com>
+Message-ID: <4f3442ddd5e2b_9f324d06b4235d8@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman, Giovanny Ciriaco
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3442ddd39c7_9f324d06b4232fd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3442ddd39c7_9f324d06b4232fd
+Date: Thu, 09 Feb 2012 17:34:13 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3442ddd5100_9f324d06b423333@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Giovanny Ciriaco
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: zamuro57.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3442ddd39c7_9f324d06b4232fd
+Date: Thu, 09 Feb 2012 17:34:13 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3442ddd58ed_9f324d06b4234f9@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Giovanny Ciriaco for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: zamuro57.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3442ddd39c7_9f324d06b4232fd--
+Redirected to http://192.168.1.110:3000/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account
+Completed 302 Found in 488ms
+
+
+Started GET "/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account" for 192.168.1.103 at 2012-02-09 17:34:14 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, we send you a email to confirm your account"}
+Rendered user/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/new" for 192.168.1.103 at 2012-02-09 17:39:46 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ipwJNLfmt7YiWtWy8sioJyLQE1OrS2FJl3xqX63hruM=", "user"=>{"username"=>"zamuro57", "name"=>"Giovanny Ciriaco", "email"=>"zamuro57@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'zamuro57' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'zamuro57@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 09 Feb 2012 22:09:47 UTC +00:00], ["email", "zamuro57@gmail.com"], ["name", "Giovanny Ciriaco"], ["password_digest", "$2a$10$IBjwu8sJiNO5lY2EHdYWdO4glXjuuD9wkiuDOLAwjXKbeP.attgPW"], ["updated_at", Thu, 09 Feb 2012 22:09:47 UTC +00:00], ["username", "zamuro57"]]
+Rendered user_mailer/created.html.erb (8.7ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to zamuro57@gmail.com (3394ms)
+Date: Thu, 09 Feb 2012 17:39:49 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Giovanny Ciriaco <zamuro57@gmail.com>
+Message-ID: <4f34442d370a8_224d200772c8235f@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman, Giovanny Ciriaco
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f34442d26cc8_224d200772c8204c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f34442d26cc8_224d200772c8204c
+Date: Thu, 09 Feb 2012 17:39:49 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34442d316ff_224d200772c821ad@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Giovanny Ciriaco
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: zamuro57.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f34442d26cc8_224d200772c8204c
+Date: Thu, 09 Feb 2012 17:39:49 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34442d34d94_224d200772c822d6@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Giovanny Ciriaco for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: zamuro57.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f34442d26cc8_224d200772c8204c--
+Redirected to http://192.168.1.110:3000/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account
+Completed 302 Found in 4703ms
+
+
+Started GET "/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account" for 192.168.1.103 at 2012-02-09 17:39:52 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, we send you a email to confirm your account"}
+Rendered user/profile.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
