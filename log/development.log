@@ -4901,3 +4901,1511 @@ Served asset /sessions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-08 17:33:11 -0430
 Served asset /application.js - 304 Not Modified (0ms)
+Rendered user_mailer/created.html.erb (45.1ms)
+Rendered user_mailer/created.html.erb (4.0ms)
+Rendered user_mailer/created.html.erb (4.4ms)
+Rendered user_mailer/created.html.erb (1.1ms)
+Rendered user_mailer/created.html.erb (1.1ms)
+Rendered user_mailer/created.html.erb (1.1ms)
+Rendered user_mailer/created.html.erb (8.3ms)
+Rendered user_mailer/created.html.erb (7.2ms)
+Rendered user_mailer/created.html.erb (1.2ms)
+Rendered user_mailer/created.text.erb (2.9ms)
+Rendered user_mailer/created.html.erb (0.8ms)
+Rendered user_mailer/created.html.erb (1.9ms)
+Rendered user_mailer/created.text.erb (1.4ms)
+Rendered user_mailer/created.html.erb (0.8ms)
+Rendered user_mailer/created.text.erb (0.6ms)
+
+Sent mail to higher.vnf@gmail.com (1512ms)
+Date: Thu, 09 Feb 2012 14:08:11 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f34129366989_e4e964600717da@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f34128fd2aa5_e4e964600714c9";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f34128fd2aa5_e4e964600714c9
+Date: Thu, 09 Feb 2012 14:08:11 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3412935b9ac_e4e96460071560@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f34128fd2aa5_e4e964600714c9
+Date: Thu, 09 Feb 2012 14:08:11 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341293647e7_e4e964600716e3@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f34128fd2aa5_e4e964600714c9--
+Rendered user_mailer/created.html.erb (0.2ms)
+Rendered user_mailer/created.text.erb (0.1ms)
+
+Sent mail to higher.vnf@gmail.com (5390ms)
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f3413dfb83a6_e4e964600721f@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3413dc20f0f_e4e9646007181a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3413dfb589c_e4e96460071929@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3413dfb76eb_e4e9646007201f@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a--
+
+Sent mail to higher.vnf@gmail.com (5570ms)
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f3413dfb83a6_e4e964600721f@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3413dc20f0f_e4e9646007181a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3413dfb589c_e4e96460071929@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a
+Date: Thu, 09 Feb 2012 14:13:43 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3413dfb76eb_e4e9646007201f@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3413dc20f0f_e4e9646007181a--
+Rendered user_mailer/created.html.erb (34.9ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (66368ms)
+Date: Thu, 09 Feb 2012 14:20:36 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f34157c7e618_12f9128edfc5251@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3415795780_12f9128edfc491a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3415795780_12f9128edfc491a
+Date: Thu, 09 Feb 2012 14:20:36 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34157c78ff6_12f9128edfc5086@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3415795780_12f9128edfc491a
+Date: Thu, 09 Feb 2012 14:20:36 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34157c7c5bf_12f9128edfc51e8@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3415795780_12f9128edfc491a--
+Rendered user_mailer/created.html.erb (34.0ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (122953ms)
+Date: Thu, 09 Feb 2012 14:22:18 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f3415e25ae3c_134e1106da444121@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3415ddc8dab_134e1106da44389f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3415ddc8dab_134e1106da44389f
+Date: Thu, 09 Feb 2012 14:22:18 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3415e2558b6_134e1106da4439fb@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3415ddc8dab_134e1106da44389f
+Date: Thu, 09 Feb 2012 14:22:18 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3415e258e4d_134e1106da444060@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3415ddc8dab_134e1106da44389f--
+Rendered user_mailer/created.html.erb (15.7ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to sergio.marin@escuelaweb.org (121694ms)
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+From: info@wuoman.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f3416b1efdf8_139e5a6e00809f7@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3416ae399c0_139e5a6e00806a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3416b1ea8ba_139e5a6e00807fc@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3416b1eddcf_139e5a6e00808da@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a--
+
+Sent mail to sergio.marin@escuelaweb.org (121640ms)
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+From: info@wuoman.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f3416b1efdf8_139e5a6e00809f7@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3416ae399c0_139e5a6e00806a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3416b1ea8ba_139e5a6e00807fc@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a
+Date: Thu, 09 Feb 2012 14:25:45 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3416b1eddcf_139e5a6e00808da@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3416ae399c0_139e5a6e00806a--
+Rendered user_mailer/created.html.erb (15.7ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to sergio.marin@escuelaweb.org (127543ms)
+Date: Thu, 09 Feb 2012 14:44:12 -0430
+From: info@wuoman.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f341b044c168_14eae3ee0046@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341b015c88e_14eae3ee0010";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341b015c88e_14eae3ee0010
+Date: Thu, 09 Feb 2012 14:44:12 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341b0446c88_14eae3ee002a9@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341b015c88e_14eae3ee0010
+Date: Thu, 09 Feb 2012 14:44:12 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341b044a1e0_14eae3ee003d9@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341b015c88e_14eae3ee0010--
+Rendered user_mailer/created.html.erb (15.8ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to sergio.marin@escuelaweb.org (30085ms)
+Date: Thu, 09 Feb 2012 14:52:14 -0430
+From: admin@foreachdeveloper.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f341ce6ab322_1592528dfc37693@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341ce3c613f_1592528dfc3738";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341ce3c613f_1592528dfc3738
+Date: Thu, 09 Feb 2012 14:52:14 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ce6a5d25_1592528dfc37455@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341ce3c613f_1592528dfc3738
+Date: Thu, 09 Feb 2012 14:52:14 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ce6a936c_1592528dfc375eb@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341ce3c613f_1592528dfc3738--
+Rendered user_mailer/created.html.erb (15.7ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to sergio.marin@escuelaweb.org (30088ms)
+Date: Thu, 09 Feb 2012 14:53:43 -0430
+From: admin@foreachdeveloper.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f341d3fc0a2d_15ce547e00418c6@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341d3ca5c50_15ce547e00415ca";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341d3ca5c50_15ce547e00415ca
+Date: Thu, 09 Feb 2012 14:53:43 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341d3fbb5c7_15ce547e004165f@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341d3ca5c50_15ce547e00415ca
+Date: Thu, 09 Feb 2012 14:53:43 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341d3fbea77_15ce547e0041710@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341d3ca5c50_15ce547e00415ca--
+Rendered user_mailer/created.html.erb (15.6ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to sergio.marin@escuelaweb.org (2878ms)
+Date: Thu, 09 Feb 2012 14:57:59 -0430
+From: higher.vnf@gmail.com
+To: sergio.marin@escuelaweb.org
+Message-ID: <4f341e3fb3002_1646a87dfc9526d@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341e392fcc_1646a87dfc94929";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341e392fcc_1646a87dfc94929
+Date: Thu, 09 Feb 2012 14:57:59 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341e3fada46_1646a87dfc95016@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341e392fcc_1646a87dfc94929
+Date: Thu, 09 Feb 2012 14:57:59 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341e3fb10b9_1646a87dfc95197@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341e392fcc_1646a87dfc94929--
+Rendered user_mailer/created.html.erb (15.6ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (2412ms)
+Date: Thu, 09 Feb 2012 15:00:10 -0430
+From: info@wuoman.com
+To: higher.vnf@gmail.com
+Message-ID: <4f341ec21d6c1_169d33be0439813@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341ebe44aff_169d33be0439550";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341ebe44aff_169d33be0439550
+Date: Thu, 09 Feb 2012 15:00:10 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ec2182a4_169d33be04396ea@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341ebe44aff_169d33be0439550
+Date: Thu, 09 Feb 2012 15:00:10 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ec21b74e_169d33be0439793@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341ebe44aff_169d33be0439550--
+Rendered user_mailer/created.html.erb (15.7ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (30084ms)
+Date: Thu, 09 Feb 2012 15:02:54 -0430
+From: admin@foreachdeloper.com
+To: higher.vnf@gmail.com
+Message-ID: <4f341f668980f_170512c6e005519a@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341f62bfce7_170512c6e0054876";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341f62bfce7_170512c6e0054876
+Date: Thu, 09 Feb 2012 15:02:54 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341f66842d1_170512c6e00549cd@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341f62bfce7_170512c6e0054876
+Date: Thu, 09 Feb 2012 15:02:54 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341f668784a_170512c6e00550f9@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341f62bfce7_170512c6e0054876--
+Rendered user_mailer/created.html.erb (15.8ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (30069ms)
+Date: Thu, 09 Feb 2012 15:05:25 -0430
+From: admin@foreachdeloper.com
+To: higher.vnf@gmail.com
+Message-ID: <4f341ffdea51e_17654905fc94920@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f341ffdda2cf_17654905fc94643";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f341ffdda2cf_17654905fc94643
+Date: Thu, 09 Feb 2012 15:05:25 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ffde4eea_17654905fc94774@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f341ffdda2cf_17654905fc94643
+Date: Thu, 09 Feb 2012 15:05:25 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f341ffde857c_17654905fc94824@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f341ffdda2cf_17654905fc94643--
+Rendered user_mailer/created.html.erb (15.6ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (30068ms)
+Date: Thu, 09 Feb 2012 15:07:45 -0430
+From: admin@foreachdeloper.com
+To: higher.vnf@gmail.com
+Message-ID: <4f34208917dec_17b38afda4209d8@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f34208981f3_17b38afda420694";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f34208981f3_17b38afda420694
+Date: Thu, 09 Feb 2012 15:07:45 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f342089129ac_17b38afda420722@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f34208981f3_17b38afda420694
+Date: Thu, 09 Feb 2012 15:07:45 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34208915e3f_17b38afda420875@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f34208981f3_17b38afda420694--
+Rendered user_mailer/created.html.erb (15.8ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (3020ms)
+Date: Thu, 09 Feb 2012 15:20:43 -0430
+From: master@foreachdeloper.com
+To: higher.vnf@gmail.com
+Message-ID: <4f34239333861_1897ecfe0059732@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3423932353b_1897ecfe0059427";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3423932353b_1897ecfe0059427
+Date: Thu, 09 Feb 2012 15:20:43 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3423932e26a_1897ecfe00595ad@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3423932353b_1897ecfe0059427
+Date: Thu, 09 Feb 2012 15:20:43 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34239331835_1897ecfe005966@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3423932353b_1897ecfe0059427--
+Rendered user_mailer/created.html.erb (0.2ms)
+Rendered user_mailer/created.text.erb (0.2ms)
+
+Sent mail to higher.vnf@gmail.com (2756ms)
+Date: Thu, 09 Feb 2012 15:24:27 -0430
+From: master@foreachdeloper.com
+To: higher.vnf@gmail.com
+Message-ID: <4f342473e8962_1897ecfe006014b@sergio-Lenovo.mail>
+Subject: Register
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f342473e646d_1897ecfe005980";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f342473e646d_1897ecfe005980
+Date: Thu, 09 Feb 2012 15:24:27 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f342473e7b93_1897ecfe0059928@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f342473e646d_1897ecfe005980
+Date: Thu, 09 Feb 2012 15:24:27 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f342473e840f_1897ecfe00600bb@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f342473e646d_1897ecfe005980--
+Rendered user_mailer/created.html.erb (16.0ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (2613ms)
+Date: Thu, 09 Feb 2012 15:25:09 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Sergio Marin <higher.vnf@gmail.com>
+Message-ID: <4f34249db8464_1923bebe007811b@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman Sergio Marin
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f34249da84da_1923bebe0077833";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f34249da84da_1923bebe0077833
+Date: Thu, 09 Feb 2012 15:25:09 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34249db2eef_1923bebe00779e3@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: .
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f34249da84da_1923bebe0077833
+Date: Thu, 09 Feb 2012 15:25:09 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34249db644f_1923bebe0078057@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f34249da84da_1923bebe0077833--
+Rendered user_mailer/created.html.erb (0.8ms)
+Rendered user_mailer/created.text.erb (0.4ms)
+
+Sent mail to higher.vnf@gmail.com (7452ms)
+Date: Thu, 09 Feb 2012 15:25:53 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Sergio Marin <higher.vnf@gmail.com>
+Message-ID: <4f3424c9de202_1923bebe007851b@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman Sergio Marin
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3424c9dbab3_1923bebe0078288";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3424c9dbab3_1923bebe0078288
+Date: Thu, 09 Feb 2012 15:25:53 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3424c9dd47c_1923bebe0078352@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: http://http://127.0.0.1:3000/user.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3424c9dbab3_1923bebe0078288
+Date: Thu, 09 Feb 2012 15:25:53 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3424c9ddc87_1923bebe007844@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman,
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: <a href="http://http://127.0.0.1:3000/user."> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3424c9dbab3_1923bebe0078288--
+Rendered user_mailer/created.html.erb (15.9ms)
+Rendered user_mailer/created.text.erb (0.6ms)
+
+Sent mail to higher.vnf@gmail.com (2791ms)
+Date: Thu, 09 Feb 2012 15:30:19 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Sergio Marin <higher.vnf@gmail.com>
+Message-ID: <4f3425d38b5d3_1a7ef35da4438a9@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman Sergio Marin
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f3425d37b658_1a7ef35da4435ac";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f3425d37b658_1a7ef35da4435ac
+Date: Thu, 09 Feb 2012 15:30:19 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3425d38603a_1a7ef35da443678@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: http://http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f3425d37b658_1a7ef35da4435ac
+Date: Thu, 09 Feb 2012 15:30:19 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3425d389618_1a7ef35da44378f@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f3425d37b658_1a7ef35da4435ac--
+Rendered user_mailer/created.html.erb (16.1ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to higher.vnf@gmail.com (2727ms)
+Date: Thu, 09 Feb 2012 15:31:37 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Sergio Marin <higher.vnf@gmail.com>
+Message-ID: <4f342621c1013_1acf53de004588a@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman Sergio Marin
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f342621b0c69_1acf53de00455fc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f342621b0c69_1acf53de00455fc
+Date: Thu, 09 Feb 2012 15:31:37 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f342621bb8b5_1acf53de00456e4@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f342621b0c69_1acf53de00455fc
+Date: Thu, 09 Feb 2012 15:31:37 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f342621befa6_1acf53de0045746@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f342621b0c69_1acf53de00455fc--
+
+
+Started GET "/user/confirm" for 127.0.0.1 at 2012-02-09 15:31:54 -0430
+  Processing by UserController#confirm as HTML
+Completed 500 Internal Server Error in 81ms
+
+ActionView::MissingTemplate (Missing template user/confirm, application/confirm with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (25.8ms)
+Rendered user_mailer/created.html.erb (0.3ms)
+Rendered user_mailer/created.text.erb (0.2ms)
+
+Sent mail to higher.vnf@gmail.com (5669ms)
+Date: Thu, 09 Feb 2012 17:16:27 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Sergio Marin <higher.vnf@gmail.com>
+Message-ID: <4f343eb3aa98f_1acf53de0046276@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman Sergio Marin
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f343eb3a8206_1acf53de00459b2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f343eb3a8206_1acf53de00459b2
+Date: Thu, 09 Feb 2012 17:16:27 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f343eb3a9b6f_1acf53de00460e5@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Sergio Marin
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: highercomve.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f343eb3a8206_1acf53de00459b2
+Date: Thu, 09 Feb 2012 17:16:27 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f343eb3aa407_1acf53de00461bd@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Sergio Marin for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: highercomve.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f343eb3a8206_1acf53de00459b2--
+
+
+Started GET "/assets/rails.png" for 192.168.1.103 at 2012-02-09 17:25:05 -0430
+Served asset /rails.png - 200 OK (35ms)
+
+
+Started GET "/user/new" for 192.168.1.103 at 2012-02-09 17:25:20 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (7.6ms)
+Rendered user/new.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 124ms (Views: 122.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 192.168.1.103 at 2012-02-09 17:25:21 -0430
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 192.168.1.103 at 2012-02-09 17:25:21 -0430
+Served asset /user.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 192.168.1.103 at 2012-02-09 17:25:21 -0430
+Served asset /sessions.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.103 at 2012-02-09 17:25:22 -0430
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 192.168.1.103 at 2012-02-09 17:25:22 -0430
+Served asset /user.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.103 at 2012-02-09 17:25:26 -0430
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.103 at 2012-02-09 17:25:26 -0430
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.103 at 2012-02-09 17:25:26 -0430
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started POST "/user/new" for 192.168.1.103 at 2012-02-09 17:26:52 -0430
+  Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ipwJNLfmt7YiWtWy8sioJyLQE1OrS2FJl3xqX63hruM=", "user"=>{"username"=>"zamuro57", "name"=>"Giovanny Ciriaco", "email"=>"zamuro57@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.0ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'zamuro57' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'zamuro57@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (25.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 09 Feb 2012 21:56:53 UTC +00:00], ["email", "zamuro57@gmail.com"], ["name", "Giovanny Ciriaco"], ["password_digest", "$2a$10$UMk7FuCDsK2KqRYBmfWHsO4lE7ZwEAGUspQJMyQ6Q4BWwWO3wK70C"], ["updated_at", Thu, 09 Feb 2012 21:56:53 UTC +00:00], ["username", "zamuro57"]]
+Rendered user_mailer/created.html.erb (0.6ms)
+Rendered user_mailer/created.text.erb (0.5ms)
+
+Sent mail to zamuro57@gmail.com (571ms)
+Date: Thu, 09 Feb 2012 17:26:54 -0430
+From: Registro Wuoman <master@foreachdeloper.com>
+To: Giovanny Ciriaco <zamuro57@gmail.com>
+Message-ID: <4f344126543f5_9f33f86dc070bf02315d@sergio-Lenovo.mail>
+Subject: Welcome To Wuoman, Giovanny Ciriaco
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f344126434fe_9f33f86dc070bf0228a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f344126434fe_9f33f86dc070bf0228a8
+Date: Thu, 09 Feb 2012 17:26:54 -0430
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f3441264960f_9f33f86dc070bf022914@sergio-Lenovo.mail>
+
+Welcome to Wuoman.com, Giovanny Ciriaco
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: zamuro57.
+ 
+To login to the site, just follow this link: http://127.0.0.1:3000/user/confirm.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f344126434fe_9f33f86dc070bf0228a8
+Date: Thu, 09 Feb 2012 17:26:54 -0430
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f34412652341_9f33f86dc070bf02301e@sergio-Lenovo.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h3>Thanks Giovanny Ciriaco for register on Wuoman!</h3> 
+    <p>
+      You have successfully signed up to Wuoman.<br/>
+      your username is: zamuro57.<br/>
+    </p>
+    <p>
+      To confirm your registration, just follow this link: <a href="http://127.0.0.1:3000/user/confirm"> Confirm </a>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f344126434fe_9f33f86dc070bf0228a8--
+Redirected to http://192.168.1.110:3000/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account
+Completed 302 Found in 1939ms
+
+
+Started GET "/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confirm+your+account" for 192.168.1.103 at 2012-02-09 17:26:55 -0430
+  Processing by UserController#profile as HTML
+  Parameters: {"notice"=>"User has been created, we send you a email to confirm your account"}
+Rendered user/profile.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)

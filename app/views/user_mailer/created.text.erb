@@ -1,0 +1,9 @@
+Welcome to Wuoman.com, <%= @user.name %>
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: <%= @user.username %>.
+ 
+To login to the site, just follow this link: <%= url_for :host=> '127.0.0.1:3000', :controller => 'user', :action => 'confirm' %>.
+ 
+Thanks for joining and have a great day!
