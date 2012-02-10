@@ -1,16 +1,20 @@
 W::Application.routes.draw do
-  
+  get   "/" => "user#profile"
   get   "sessions/login" => 'sessions#create'
   post  "sessions/login" => 'sessions#new'
   get   "sessions/logout" => 'sessions#destroy'
-  post  "user" => 'user#create', as: 'users_new'
-  post  "user/new" => 'user#create', as: 'users_new'
-  get   "user/confirm" => 'user#confirm'
-  get   "user/new" => 'user#new', as: 'users_new'
-  get   "user" => 'user#profile', as: 'users'
-  get   "user/profile"
-  get   "user/settings"
-
+  resources :user do
+    get 'settings', :on => :collection
+    
+  end
+  match "/user/confirm/:email/:hash" => 'user#confirm'
+  match '/:username' => 'user#show'
+  
+  #post  "user" => 'user#create', as: 'users_new'
+  #post  "user/new" => 'user#create', as: 'users_new'
+  #get   "user/new" => 'user#new', as: 'users_new'
+  #get   "user" => 'user#profile', as: 'users'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

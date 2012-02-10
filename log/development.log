@@ -6693,3 +6693,280 @@ Started GET "/user?notice=User+has+been+created%2C+we+send+you+a+email+to+confir
   Parameters: {"notice"=>"User has been created, we send you a email to confirm your account"}
 Rendered user/profile.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-10 13:45:35 -0430
+Served asset /rails.png - 200 OK (13ms)
+  [1m[36m (174.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (311.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120207003633)
+  [1m[35m (129.3ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_name` varchar(255), `first_name` varchar(255), `last_name` varchar(255), `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (54.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120207003633')[0m
+Migrating to ChangeNameOfUsername (20120208191032)
+  [1m[35m (260.6ms)[0m  ALTER TABLE `users` DROP `first_name`
+  [1m[36m (256.7ms)[0m  [1mALTER TABLE `users` DROP `last_name`[0m
+  [1m[35m (0.7ms)[0m  SHOW COLUMNS FROM `users` LIKE 'user_name'
+  [1m[36m (274.2ms)[0m  [1mALTER TABLE `users` CHANGE `user_name` `username` varchar(255) DEFAULT NULL[0m
+  [1m[35m (65.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120208191032')
+Migrating to AddNameToUsers (20120208191528)
+  [1m[36m (320.5ms)[0m  [1mALTER TABLE `users` ADD `name` varchar(255)[0m
+  [1m[35m (66.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120208191528')
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[36m (337.1ms)[0m  [1mALTER TABLE `users` ADD `password_digest` varchar(255)[0m
+  [1m[35m (55.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120208193342')
+Migrating to DeletePassword (20120208200058)
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE `users` DROP `password`[0m
+Mysql2::Error: Can't DROP 'password'; check that column/key exists: ALTER TABLE `users` DROP `password`
+  [1m[36m (0.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-10 14:02:13 -0430
+  Processing by UserController#profile as HTML
+Rendered user/profile.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 181ms (Views: 180.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /user.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /user.js - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /sessions.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-10 14:02:14 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-10 14:02:29 -0430
+
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-10 14:02:33 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (7.9ms)
+Rendered user/new.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (7.0ms)
+Rendered user/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:40 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-10 14:17:48 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (8.7ms)
+Rendered user/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 74ms (Views: 72.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /user.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /user.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-10 14:17:49 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/" for 127.0.0.1 at 2012-02-10 14:17:53 -0430
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UserController):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/user/" for 127.0.0.1 at 2012-02-10 14:18:35 -0430
+  Processing by UserController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+ActionView::MissingTemplate (Missing template user/index, application/index with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2012-02-10 14:18:40 -0430
+
+AbstractController::ActionNotFound (The action 'show' could not be found for UserController):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2012-02-10 14:19:10 -0430
+  Processing by UserController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template user/show, application/show with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2012-02-10 14:19:11 -0430
+  Processing by UserController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template user/show, application/show with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2012-02-10 14:19:12 -0430
+  Processing by UserController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template user/show, application/show with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/sergio/Desktop/w/app/views"
+):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user/new" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+  Processing by UserController#new as HTML
+Rendered user/_new_form.html.erb (17.3ms)
+Rendered user/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-10 14:24:27 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120207003633)
+Migrating to ChangeNameOfUsername (20120208191032)
+Migrating to AddNameToUsers (20120208191528)
+Migrating to AddPasswordToUsers (20120208193342)
+Migrating to AddStatusToUsers (20120210190115)
+  [1m[35m (279.2ms)[0m  ALTER TABLE `users` ADD `status` varchar(255)
+  [1m[36m (43.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120210190115')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 

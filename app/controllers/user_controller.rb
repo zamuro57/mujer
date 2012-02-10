@@ -23,14 +23,27 @@ class UserController < ApplicationController
     end
   end
   
-  def profile
+  def index
+    
+  end
+  
+  def show
+    
   end
   
   def settings
+  
   end
   
   def confirm
-    
+    confirm_hash=params([:hash])
+    email=params([:email])
+    user=User.find_by_email(email)
+    if user.nil?
+      
+    else
+      
+    end
   end
 
 end
