@@ -1,5 +1,6 @@
 W::Application.routes.draw do
-  get   "/" => "user#profile"
+
+  get   "/" => "users#profile"
   get   "/login" => 'sessions#create'
   post  "/login" => 'sessions#new'
   get   "/logout" => 'sessions#destroy'
@@ -10,8 +11,14 @@ W::Application.routes.draw do
   resources :users do
     get 'settings', :on => :collection
   end
-  match "/user/confirm/:email/:hash" => 'user#confirm'
-  match '/:username' => 'user#show'
+  resources :posts do
+    resources :steps do 
+    
+    end  
+  end
+  
+  match "/user/confirm/:email/:hash" => 'users#confirm'
+  match '/:username' => 'users#show'
   
   #post  "user" => 'user#create', as: 'users_new'
   #post  "user/new" => 'user#create', as: 'users_new'
