@@ -1,6 +1,6 @@
 W::Application.routes.draw do
-
-  get   "/" => "users#profile"
+  root :to => 'users#profile'
+  #get   "/" => "users#profile"
   get   "/login" => 'sessions#create'
   post  "/login" => 'sessions#new'
   get   "/logout" => 'sessions#destroy'

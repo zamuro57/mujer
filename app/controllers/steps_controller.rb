@@ -33,7 +33,7 @@ class StepsController < ApplicationController
     @step = @post.steps.find(params[:id])
     @step.destroy
     respond_to do |format|
-        flash[:notice]="Success a new step has been created."
+        flash[:notice]="The Step has beed deleted."
         format.html 
         format.js { render 'create'}
     end

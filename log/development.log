@@ -13596,3 +13596,4441 @@ Started DELETE "/posts/1/steps/25" for 127.0.0.1 at 2012-02-13 00:38:30 -0430
 Rendered steps/_step.html.erb (5.1ms)
 Rendered steps/create.js.erb (7.2ms)
 Completed 200 OK in 121ms (Views: 11.3ms | ActiveRecord: 64.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 15:54:11 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /user.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /posts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /steps.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /posts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /steps.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:13 -0430
+Served asset /user.js - 304 Not Modified (4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+  Processing by SessionsController#create as HTML
+Rendered sessions/create.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:18 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2012-02-13 15:54:22 -0430
+
+
+Started GET "/login" for 127.0.0.1 at 2012-02-13 15:54:44 -0430
+  Processing by SessionsController#create as HTML
+Rendered sessions/create.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /user.css - 200 OK (6ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /steps.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /steps.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 15:54:45 -0430
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2012-02-13 15:54:46 -0430
+
+
+Started GET "/auth/facebook/callback?code=AQBAbR9Xkh4ciEYs2PoiLDC7fWN6MHzQYIJMKMOcBWppfQbaQLe3nXKPHpF33hyXXVlZrhqrjRcDxFIZfjMsiDrp9w97kG_wCRtK-ejlRaArJ5fMJtCuWYyMduG3xbuYfEeticJ0DSJdGuAXdXFxsrsHBT4vq_sq0mHrf26DPIoYJgEg2J7CLM91WA9Ptm4gt6s" for 127.0.0.1 at 2012-02-13 15:54:47 -0430
+  Processing by SessionsController#auth as HTML
+  Parameters: {"code"=>"AQBAbR9Xkh4ciEYs2PoiLDC7fWN6MHzQYIJMKMOcBWppfQbaQLe3nXKPHpF33hyXXVlZrhqrjRcDxFIZfjMsiDrp9w97kG_wCRtK-ejlRaArJ5fMJtCuWYyMduG3xbuYfEeticJ0DSJdGuAXdXFxsrsHBT4vq_sq0mHrf26DPIoYJgEg2J7CLM91WA9Ptm4gt6s", "provider"=>"facebook"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '526599327' LIMIT 1[0m
+Rendered text template (0.0ms)
+Completed 200 OK in 79ms (Views: 11.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:40 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+  Processing by SessionsController#create as HTML
+Rendered sessions/create.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 15:57:45 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2012-02-13 15:57:50 -0430
+
+
+Started GET "/auth/facebook/callback?code=AQC8Epy1CAHn9Xwu0ENpxLQ4Z1ykw_hl-F99oZImmcu86F05u3bX5p1x3_7uXdCd3S55L6anrrusvaMfHjt05cUJ3ljzF1PH1N9-eXNCsLi8ZD7DDD0V-o5cLfv0L79B9URckrhj_UlQFU6biP_2D_KApkF9LU79vDe6GXggdyRMAe1T3UznNOHepYQp8mgeA3M" for 127.0.0.1 at 2012-02-13 15:58:31 -0430
+  Processing by SessionsController#auth as HTML
+  Parameters: {"code"=>"AQC8Epy1CAHn9Xwu0ENpxLQ4Z1ykw_hl-F99oZImmcu86F05u3bX5p1x3_7uXdCd3S55L6anrrusvaMfHjt05cUJ3ljzF1PH1N9-eXNCsLi8ZD7DDD0V-o5cLfv0L79B9URckrhj_UlQFU6biP_2D_KApkF9LU79vDe6GXggdyRMAe1T3UznNOHepYQp8mgeA3M", "provider"=>"facebook"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '1167316021' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'zamuro57@hotmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE `users`.`username` = BINARY 'kingkong57' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM `users` WHERE `users`.`email` = BINARY 'zamuro57@hotmail.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `password_digest`, `provider`, `status`, `uid`, `updated_at`, `username`) VALUES ('2012-02-13 20:28:44', 'zamuro57@hotmail.com', 'GiovannyFrancisco', '$2a$10$mLYm16BPQsrtM7Wg/BKL6.U6e/gMhnDbpibwO4QVVa2SM3CUzMa4u', 'facebook', 'confirmed', '1167316021', '2012-02-13 20:28:44', 'kingkong57')[0m
+  [1m[35m (68.8ms)[0m  COMMIT
+Completed 500 Internal Server Error in 1383ms
+
+NameError (undefined local variable or method `user' for #<SessionsController:0x00000002c8eec8>):
+  app/controllers/sessions_controller.rb:16:in `auth'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/auth/facebook/callback?code=AQB7kT9MzJyNqrMSmeq8u4JRGrjqp6mpxQUz_svgVsmhq92DjAE9kMsYa8tHwZfGeFuDwTpuPsLFzU6EBbh94Mzgi1YZzNTcRpSswOcEEln4s47BexIiPVuBLGLESpmRXUqf3k-nodEvjvmdOI-OpB84pgU3BB-N536Rm5GaHy-9q-R5v0Ww9ocwDZv1GCNT0Dc" for 127.0.0.1 at 2012-02-13 15:58:45 -0430
+  Processing by SessionsController#auth as HTML
+  Parameters: {"code"=>"AQB7kT9MzJyNqrMSmeq8u4JRGrjqp6mpxQUz_svgVsmhq92DjAE9kMsYa8tHwZfGeFuDwTpuPsLFzU6EBbh94Mzgi1YZzNTcRpSswOcEEln4s47BexIiPVuBLGLESpmRXUqf3k-nodEvjvmdOI-OpB84pgU3BB-N536Rm5GaHy-9q-R5v0Ww9ocwDZv1GCNT0Dc", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '1167316021' LIMIT 1[0m
+Rendered text template (0.0ms)
+Completed 200 OK in 16ms (Views: 2.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/post/new" for 127.0.0.1 at 2012-02-13 16:00:02 -0430
+
+ActionController::RoutingError (No route matches [GET] "/post/new"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 16:00:07 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (7.1ms)
+Rendered posts/new.html.erb within layouts/application (84.4ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:08 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+  Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "post"=>{"title"=>"Articulo de Ciriaco"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT 1 FROM `posts` WHERE `posts`.`title` = BINARY 'Articulo de Ciriaco' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `posts` (`created_at`, `description`, `title`, `updated_at`, `user_id`) VALUES ('2012-02-13 20:30:15', NULL, 'Articulo de Ciriaco', '2012-02-13 20:30:15', NULL)
+  [1m[36m (54.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/5/edit
+Completed 302 Found in 65ms
+
+
+Started GET "/posts/5/edit" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+Rendered posts/_new_form.html.erb (6.7ms)
+  [1m[36mStep Load (0.1ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5[0m
+Rendered collection (0.0ms)
+Rendered posts/edit.html.erb within layouts/application (128.4ms)
+Completed 200 OK in 143ms (Views: 136.6ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:00:15 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts/5/steps" for 127.0.0.1 at 2012-02-13 16:00:34 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "step"=>{"title"=>"Primera paso menear el agua", "content"=>"usted agarra el agua y la menea"}, "commit"=>"Create Step", "post_id"=>"5"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('usted agarra el agua y la menea', '2012-02-13 20:30:34', 5, 'Primera paso menear el agua', '2012-02-13 20:30:34')
+  [1m[36m (51.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.7ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+Rendered steps/_step.html.erb (13.1ms)
+Rendered steps/create.js.erb (15.8ms)
+Completed 200 OK in 158ms (Views: 87.4ms | ActiveRecord: 55.8ms)
+
+
+Started POST "/posts/5/steps" for 127.0.0.1 at 2012-02-13 16:01:08 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "step"=>{"title"=>"Usted le hecha azucar", "content"=>"Vas a donde esta la azucar, la agarras y le echas"}, "commit"=>"Create Step", "post_id"=>"5"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('Vas a donde esta la azucar, la agarras y le echas', '2012-02-13 20:31:08', 5, 'Usted le hecha azucar', '2012-02-13 20:31:08')
+  [1m[36m (68.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.7ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+Rendered steps/_step.html.erb (8.7ms)
+Rendered steps/create.js.erb (12.2ms)
+Completed 200 OK in 109ms (Views: 20.8ms | ActiveRecord: 73.6ms)
+
+
+Started DELETE "/posts/5/steps/24" for 127.0.0.1 at 2012-02-13 16:01:15 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"5", "id"=>"24"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  [1m[35mStep Load (0.5ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5 AND `steps`.`id` = 24 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM `steps` WHERE `steps`.`id` = 24
+  [1m[36m (77.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.9ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+Rendered steps/_step.html.erb (3.8ms)
+Rendered steps/create.js.erb (7.3ms)
+Completed 200 OK in 115ms (Views: 16.9ms | ActiveRecord: 83.6ms)
+
+
+Started PUT "/posts/5" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+  Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "post"=>{"title"=>"Articulo de Ciriaco"}, "commit"=>"Update Post", "id"=>"5"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  SELECT 1 FROM `posts` WHERE (`posts`.`title` = BINARY 'Articulo de Ciriaco' AND `posts`.`id` != 5) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/5/edit
+Completed 302 Found in 12ms
+
+
+Started GET "/posts/5/edit" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+Rendered posts/_new_form.html.erb (5.2ms)
+  [1m[36mStep Load (0.1ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 5[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+Rendered steps/_step.html.erb (2.1ms)
+Rendered posts/edit.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 27ms (Views: 21.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:26 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:27 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:27 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:27 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:01:27 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts/5/steps" for 127.0.0.1 at 2012-02-13 16:01:38 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "step"=>{"title"=>"", "content"=>"dsaddasdad"}, "commit"=>"Create Step", "post_id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/posts/5/steps" for 127.0.0.1 at 2012-02-13 16:01:44 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "step"=>{"title"=>"", "content"=>"dsaddasdad"}, "commit"=>"Create Step", "post_id"=>"5"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Completed 200 OK in 22ms (Views: 0.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/posts/5/steps" for 127.0.0.1 at 2012-02-13 16:01:56 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9FahEJdSRRyID6Y8bOZuTQFY0unaXDFjmG4Ox3N21c=", "step"=>{"title"=>"aDSASDAS", "content"=>""}, "commit"=>"Create Step", "post_id"=>"5"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 26ms (Views: 0.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:02:17 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit/steps/1" for 127.0.0.1 at 2012-02-13 16:08:18 -0430
+
+ActionController::RoutingError (No route matches [GET] "/posts/1/edit/steps/1"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/posts/1/edit/steps/1/edit" for 127.0.0.1 at 2012-02-13 16:08:25 -0430
+
+ActionController::RoutingError (No route matches [GET] "/posts/1/edit/steps/1/edit"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/posts/1/steps/1/edit" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+  Processing by StepsController#edit as HTML
+  Parameters: {"post_id"=>"1", "id"=>"1"}
+Rendered steps/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:29 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/steps/2/edit" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+  Processing by StepsController#edit as HTML
+  Parameters: {"post_id"=>"1", "id"=>"2"}
+Rendered steps/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:08:38 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:25:35 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (10.0ms)
+  [1m[35mStep Load (0.2ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (40.6ms)
+Rendered steps/_new_form.html.erb (5.1ms)
+Rendered posts/edit.html.erb within layouts/application (168.2ms)
+Completed 200 OK in 302ms (Views: 296.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:25:36 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered posts/_new_form.html.erb (27.4ms)
+  [1m[36mStep Load (0.1ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered steps/_step.html.erb (5.1ms)
+Rendered steps/_new_form.html.erb (2.6ms)
+Rendered posts/edit.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 57ms (Views: 50.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:25:36 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (7.3ms)
+  [1m[35mStep Load (0.2ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (6.7ms)
+Rendered steps/_new_form.html.erb (3.0ms)
+Rendered posts/edit.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /user.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /steps.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /steps.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:37 -0430
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started POST "/posts/1/steps" for 127.0.0.1 at 2012-02-13 16:25:46 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ex4kZCnO8udJ+5tsUvMcT0mya4AchTa/hqNo042RBng=", "step"=>{"title"=>"test", "content"=>""}, "commit"=>"Create Step", "post_id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Completed 200 OK in 38ms (Views: 0.6ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/posts/1/steps" for 127.0.0.1 at 2012-02-13 16:25:50 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ex4kZCnO8udJ+5tsUvMcT0mya4AchTa/hqNo042RBng=", "step"=>{"title"=>"test", "content"=>"prueba"}, "commit"=>"Create Step", "post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('prueba', '2012-02-13 20:55:50', 1, 'test', '2012-02-13 20:55:50')[0m
+  [1m[35m (59.9ms)[0m  COMMIT
+  [1m[36mStep Load (0.3ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (3.6ms)
+Rendered steps/create.js.erb (6.0ms)
+Completed 200 OK in 222ms (Views: 89.9ms | ActiveRecord: 63.8ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered posts/_new_form.html.erb (5.0ms)
+  [1m[36mStep Load (0.1ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (6.0ms)
+Rendered steps/_new_form.html.erb (2.6ms)
+Rendered posts/edit.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:25:52 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/posts/1/steps" for 127.0.0.1 at 2012-02-13 16:27:09 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ex4kZCnO8udJ+5tsUvMcT0mya4AchTa/hqNo042RBng=", "step"=>{"title"=>"sdssd", "content"=>"asdasd"}, "commit"=>"Create Step", "post_id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('asdasd', '2012-02-13 20:57:09', 1, 'sdssd', '2012-02-13 20:57:09')
+  [1m[36m (60.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.5ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (11.4ms)
+Rendered steps/create.js.erb (14.1ms)
+Completed 200 OK in 101ms (Views: 21.1ms | ActiveRecord: 65.1ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:27:14 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered posts/_new_form.html.erb (5.0ms)
+  [1m[36mStep Load (0.2ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered steps/_step.html.erb (7.4ms)
+Rendered steps/_new_form.html.erb (2.1ms)
+Rendered posts/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 30ms (Views: 23.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (5.0ms)
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (7.3ms)
+Rendered steps/_new_form.html.erb (2.8ms)
+Rendered posts/edit.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 50ms (Views: 45.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 16:27:15 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started POST "/posts/1/steps" for 127.0.0.1 at 2012-02-13 16:27:20 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ex4kZCnO8udJ+5tsUvMcT0mya4AchTa/hqNo042RBng=", "step"=>{"title"=>"asdad", "content"=>"adad"}, "commit"=>"Create Step", "post_id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('adad', '2012-02-13 20:57:20', 1, 'asdad', '2012-02-13 20:57:20')
+  [1m[36m (60.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.9ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered steps/_step.html.erb (9.3ms)
+Rendered steps/create.js.erb (13.9ms)
+Completed 200 OK in 101ms (Views: 20.2ms | ActiveRecord: 65.8ms)
+
+
+Started DELETE "/posts/1/steps/25" for 127.0.0.1 at 2012-02-13 16:33:58 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"1", "id"=>"25"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1 AND `steps`.`id` = 25 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `steps` WHERE `steps`.`id` = 25
+  [1m[36m (53.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.6ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (9.9ms)
+Rendered steps/create.js.erb (13.0ms)
+Completed 200 OK in 118ms (Views: 17.4ms | ActiveRecord: 56.8ms)
+
+
+Started DELETE "/posts/1/steps/24" for 127.0.0.1 at 2012-02-13 16:34:00 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"1", "id"=>"24"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mStep Load (0.3ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1 AND `steps`.`id` = 24 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `steps` WHERE `steps`.`id` = 24[0m
+  [1m[35m (72.3ms)[0m  COMMIT
+  [1m[36mStep Load (0.7ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered steps/_step.html.erb (7.4ms)
+Rendered steps/create.js.erb (10.2ms)
+Completed 200 OK in 106ms (Views: 13.8ms | ActiveRecord: 75.2ms)
+
+
+Started DELETE "/posts/1/steps/26" for 127.0.0.1 at 2012-02-13 16:34:02 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"1", "id"=>"26"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36mStep Load (0.8ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1 AND `steps`.`id` = 26 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `steps` WHERE `steps`.`id` = 26[0m
+  [1m[35m (53.2ms)[0m  COMMIT
+  [1m[36mStep Load (0.6ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Rendered steps/_step.html.erb (2.0ms)
+Rendered steps/create.js.erb (3.7ms)
+Completed 200 OK in 95ms (Views: 9.4ms | ActiveRecord: 59.2ms)
+
+
+Started DELETE "/posts/1/steps/22" for 127.0.0.1 at 2012-02-13 16:48:59 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"1", "id"=>"22"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1 AND `steps`.`id` = 22 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `steps` WHERE `steps`.`id` = 22
+  [1m[36m (48.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/create.js.erb (1.3ms)
+Completed 200 OK in 75ms (Views: 5.1ms | ActiveRecord: 52.5ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (6.2ms)
+  [1m[35mStep Load (0.1ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (7.3ms)
+Rendered posts/edit.html.erb within layouts/application (18.1ms)
+Compiled application.css  (2ms)  (pid 3064)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 3064)
+Compiled bootstrap.css  (1ms)  (pid 3064)
+Compiled application.js  (4ms)  (pid 3064)
+Compiled bootstrap.js  (0ms)  (pid 3064)
+Completed 200 OK in 260ms (Views: 256.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /bootstrap-responsive.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:21 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:12:22 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (5.1ms)
+  [1m[35mStep Load (0.2ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (28.6ms)
+Rendered posts/edit.html.erb within layouts/application (39.1ms)
+Compiled application.css  (1ms)  (pid 3064)
+Compiled application.js  (3ms)  (pid 3064)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:13:11 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (4.9ms)
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (7.2ms)
+Rendered posts/edit.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 49ms (Views: 43.3ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:18:56 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (5.0ms)
+  [1m[35mStep Load (0.1ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (11.9ms)
+Rendered posts/edit.html.erb within layouts/application (22.3ms)
+Compiled application.css  (1ms)  (pid 3064)
+Completed 200 OK in 39ms (Views: 34.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:28:45 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (5.1ms)
+  [1m[35mStep Load (0.2ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (7.3ms)
+Rendered posts/edit.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 50ms (Views: 44.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:30:07 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (9.3ms)
+  [1m[35mStep Load (0.1ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (9.8ms)
+Rendered posts/edit.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:35:09 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/1/scaffolding.html" for 127.0.0.1 at 2012-02-13 17:37:11 -0430
+
+ActionController::RoutingError (No route matches [GET] "/posts/1/scaffolding.html"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2012-02-13 17:40:42 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (5.7ms)
+  [1m[35mStep Load (0.2ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 1
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (7.0ms)
+Rendered posts/edit.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 35ms (Views: 27.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:42 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:42 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:42 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:43 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:40:44 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:41:52 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined local variable or method `new_posts_url' for #<#<Class:0x00000003c1a978>:0x00000003c06478>):
+    14: 	      <div class="nav-collapse">
+    15:             <ul class="nav">
+    16:               <li class="">
+    17:                 <a href="<%= new_posts_url %>">Overview</a>
+    18:               </li>
+    19:               <li class="">
+    20:                 <a href="./scaffolding.html">Scaffolding</a>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__1266715581552089071_31512540'
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:02 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:42:03 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (11.2ms)
+Rendered posts/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:42:04 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:24 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:47:25 -0430
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:47:59 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:48:33 -0430
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:48:34 -0430
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:48:40 -0430
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Compiled bootstrap.css  (0ms)  (pid 3064)
+Compiled application.css  (1ms)  (pid 3064)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /bootstrap.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:47 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:48 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:48 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:48 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:48 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:49:48 -0430
+
+ActionController::RoutingError (No route matches [GET] "/images/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:49:49 -0430
+
+ActionController::RoutingError (No route matches [GET] "/images/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /steps.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /steps.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/images/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:49:51 -0430
+
+ActionController::RoutingError (No route matches [GET] "/images/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:49:52 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (8.1ms)
+Rendered posts/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:52 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:49:52 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/images/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:49:52 -0430
+
+ActionController::RoutingError (No route matches [GET] "/images/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/images/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:49:58 -0430
+
+ActionController::RoutingError (No route matches [GET] "/images/glyphicons-halflings.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Compiled bootstrap.css  (0ms)  (pid 3064)
+Compiled application.css  (1ms)  (pid 3064)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:50:52 -0430
+Served asset /glyphicons-halflings.png - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-02-13 17:50:54 -0430
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:51:09 -0430
+Served asset /glyphicons-halflings-white.png - 200 OK (4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (17.6ms)
+Rendered posts/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:12 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (5.8ms)
+Rendered posts/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:51:40 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.5ms)
+Rendered posts/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:51:41 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (7.1ms)
+Rendered posts/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:51:43 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (5.9ms)
+Rendered posts/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:51:48 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/scaffolding.html" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"scaffolding"}
+Rendered posts/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:52:09 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (5.6ms)
+Rendered posts/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:52:42 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:53:20 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (8.9ms)
+Rendered posts/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:53:21 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.0ms)
+Rendered posts/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:53:23 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.0ms)
+Rendered posts/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:53:47 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.0ms)
+Rendered posts/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:54:18 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.0ms)
+Rendered posts/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (29.4ms)
+Rendered posts/new.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:54:19 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:54:36 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 17:55:32 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 20:42:23 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 451ms (Views: 450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /bootstrap.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /posts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /steps.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /posts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /steps.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /user.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:42:25 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (24ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (7.3ms)
+Rendered posts/new.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:44:04 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.3ms)
+Rendered posts/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:17 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:58:18 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-02-13 20:58:29 -0430
+  Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svWSVPsmMaFktR+0AbOmG/YUCS1U4HnIX3Kgmtoo2sc=", "post"=>{"title"=>"Nuevo Articulo"}, "commit"=>"Create Post"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT 1 FROM `posts` WHERE `posts`.`title` = BINARY 'Nuevo Articulo' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `posts` (`created_at`, `description`, `title`, `updated_at`, `user_id`) VALUES ('2012-02-14 01:28:30', NULL, 'Nuevo Articulo', '2012-02-14 01:28:30', NULL)[0m
+  [1m[35m (66.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/posts/6/edit
+Completed 302 Found in 287ms
+
+
+Started GET "/posts/6/edit" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+Rendered posts/_new_form.html.erb (30.8ms)
+  [1m[35mStep Load (0.4ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6
+Rendered collection (0.0ms)
+Rendered steps/_new_form.html.erb (20.1ms)
+Rendered posts/edit.html.erb within layouts/application (171.1ms)
+Completed 200 OK in 200ms (Views: 195.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:58:30 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started POST "/posts/6/steps" for 127.0.0.1 at 2012-02-13 20:58:38 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svWSVPsmMaFktR+0AbOmG/YUCS1U4HnIX3Kgmtoo2sc=", "step"=>{"title"=>"paso 1", "content"=>"sandalsdasds"}, "commit"=>"Create Step", "post_id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('sandalsdasds', '2012-02-14 01:28:38', 6, 'paso 1', '2012-02-14 01:28:38')[0m
+  [1m[35m (53.9ms)[0m  COMMIT
+  [1m[36mStep Load (0.6ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+Rendered steps/_step.html.erb (31.3ms)
+Rendered steps/create.js.erb (34.3ms)
+Completed 200 OK in 193ms (Views: 98.1ms | ActiveRecord: 58.1ms)
+
+
+Started POST "/posts/6/steps" for 127.0.0.1 at 2012-02-13 20:58:44 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svWSVPsmMaFktR+0AbOmG/YUCS1U4HnIX3Kgmtoo2sc=", "step"=>{"title"=>"paso 2", "content"=>"sandalsdasds a dsdasdd"}, "commit"=>"Create Step", "post_id"=>"6"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('sandalsdasds a dsdasdd', '2012-02-14 01:28:44', 6, 'paso 2', '2012-02-14 01:28:44')[0m
+  [1m[35m (43.1ms)[0m  COMMIT
+  [1m[36mStep Load (0.6ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+Rendered steps/_step.html.erb (11.1ms)
+Rendered steps/create.js.erb (16.1ms)
+Completed 200 OK in 85ms (Views: 21.9ms | ActiveRecord: 47.9ms)
+
+
+Started POST "/posts/6/steps" for 127.0.0.1 at 2012-02-13 20:58:51 -0430
+  Processing by StepsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"svWSVPsmMaFktR+0AbOmG/YUCS1U4HnIX3Kgmtoo2sc=", "step"=>{"title"=>"paso 3", "content"=>"sandalsdasds a dsdasddasdasd"}, "commit"=>"Create Step", "post_id"=>"6"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `steps` (`content`, `created_at`, `post_id`, `title`, `updated_at`) VALUES ('sandalsdasds a dsdasddasdasd', '2012-02-14 01:28:51', 6, 'paso 3', '2012-02-14 01:28:51')
+  [1m[36m (65.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mStep Load (0.3ms)[0m  SELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+Rendered steps/_step.html.erb (5.7ms)
+Rendered steps/create.js.erb (8.2ms)
+Completed 200 OK in 127ms (Views: 16.7ms | ActiveRecord: 69.0ms)
+
+
+Started DELETE "/posts/6/steps/25" for 127.0.0.1 at 2012-02-13 20:58:56 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"6", "id"=>"25"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36mStep Load (0.4ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6 AND `steps`.`id` = 25 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `steps` WHERE `steps`.`id` = 25[0m
+  [1m[35m (55.6ms)[0m  COMMIT
+  [1m[36mStep Load (0.6ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1[0m
+Rendered steps/_step.html.erb (3.1ms)
+Rendered steps/create.js.erb (6.3ms)
+Completed 200 OK in 95ms (Views: 14.8ms | ActiveRecord: 58.8ms)
+
+
+Started DELETE "/posts/6/steps/26" for 127.0.0.1 at 2012-02-13 20:58:59 -0430
+  Processing by StepsController#destroy as JS
+  Parameters: {"post_id"=>"6", "id"=>"26"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+  [1m[36mStep Load (0.5ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6 AND `steps`.`id` = 26 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `steps` WHERE `steps`.`id` = 26[0m
+  [1m[35m (90.2ms)[0m  COMMIT
+  [1m[36mStep Load (0.6ms)[0m  [1mSELECT `steps`.* FROM `steps` WHERE `steps`.`post_id` = 6[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 6 LIMIT 1
+Rendered steps/_step.html.erb (2.2ms)
+Rendered steps/create.js.erb (4.0ms)
+Completed 200 OK in 149ms (Views: 6.9ms | ActiveRecord: 94.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:59:03 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+  Processing by SessionsController#create as HTML
+Rendered sessions/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:59:12 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2012-02-13 20:59:15 -0430
+
+
+Started GET "/auth/facebook/callback?code=AQB-xcmJABR2G95wH7dMOPnk6p0layZNrNxtOtl5MYwlBk7gGwsw3MUjZjMIu1DnYq695qY6kOcz_zHGf5CJ5NenUTHcWkWJbxD7tGAI-uggRclhBesND0IoOG7_pZ09SSU5rfjUJ4yVacoy-xZRFytWsXNbB67e1LMlvTPn0dx2P5Ixu2P4AWGdRef_ywQhyts" for 127.0.0.1 at 2012-02-13 20:59:34 -0430
+  Processing by SessionsController#auth as HTML
+  Parameters: {"code"=>"AQB-xcmJABR2G95wH7dMOPnk6p0layZNrNxtOtl5MYwlBk7gGwsw3MUjZjMIu1DnYq695qY6kOcz_zHGf5CJ5NenUTHcWkWJbxD7tGAI-uggRclhBesND0IoOG7_pZ09SSU5rfjUJ4yVacoy-xZRFytWsXNbB67e1LMlvTPn0dx2P5Ixu2P4AWGdRef_ywQhyts", "provider"=>"facebook"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '526599327' LIMIT 1[0m
+Rendered text template (0.0ms)
+Completed 200 OK in 73ms (Views: 34.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/auth/facebook/callback?code=AQCvef6eR7wGd0bsAFux--vyN6oQEN8C4WytAk4r4oZgesA_KAPJxkhPoCDALdt1mAN1f5gLkUxGANMr-HSlodoTXG9c-Hx0JL6Vo9u9uD6nLFksLEpxi7VJ1Yq9PymrOnAggHmP9NBeUQB4cWADe2mS3wllqLbW9rUd5kUp2KjebVtRAhK1wgOM_oHEMMK8UYU" for 127.0.0.1 at 2012-02-13 20:59:42 -0430
+  Processing by SessionsController#auth as HTML
+  Parameters: {"code"=>"AQCvef6eR7wGd0bsAFux--vyN6oQEN8C4WytAk4r4oZgesA_KAPJxkhPoCDALdt1mAN1f5gLkUxGANMr-HSlodoTXG9c-Hx0JL6Vo9u9uD6nLFksLEpxi7VJ1Yq9PymrOnAggHmP9NBeUQB4cWADe2mS3wllqLbW9rUd5kUp2KjebVtRAhK1wgOM_oHEMMK8UYU", "provider"=>"facebook"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '526599327' LIMIT 1
+Rendered text template (0.0ms)
+Completed 200 OK in 24ms (Views: 1.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+  Processing by UsersController#profile as HTML
+Rendered users/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 20:59:53 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-02-13 21:00:23 -0430
+  Processing by PostsController#new as HTML
+Rendered posts/_new_form.html.erb (6.5ms)
+Rendered posts/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 21:00:24 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+  Processing by UsersController#new as HTML
+Rendered users/_new_form.html.erb (13.9ms)
+Rendered users/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 21:00:35 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+  Processing by UsersController#new as HTML
+Rendered users/_new_form.html.erb (9.4ms)
+Rendered users/new.html.erb within layouts/application (9.9ms)
+Compiled application.css  (1ms)  (pid 2407)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:21 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 21:03:22 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+  Processing by UsersController#new as HTML
+Rendered users/_new_form.html.erb (16.0ms)
+Rendered users/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.css?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /steps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/steps.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /steps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-02-13 21:03:48 -0430
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)

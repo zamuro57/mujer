@@ -12,18 +12,5 @@
   <%= render @post.steps %>
 </div>
 <div id="post_steps_form">
-	<h2>Add a Step:</h2>
-	<%= form_for([@post, @post.steps.build] , :remote => true) do |f| %>
-	  <div class="field">
-	    <%= f.label 'Step title' %><br />
-	    <%= f.text_field :title %>
-	  </div>
-	  <div class="field">
-	    <%= f.label 'Step description' %><br />
-	    <%= f.text_area :content %>
-	  </div>
-	  <div class="actions">
-	    <%= f.submit %>
-	  </div>
-	<% end %>
+	<%= render 'steps/new_form' %>
 </div>
