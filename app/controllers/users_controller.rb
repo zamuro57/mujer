@@ -1,13 +1,16 @@
 class UsersController < ApplicationController
-   
+  
+  skip_before_filter :authorize, only: [:new, :create, :show]
+  
   def create
     @user = User.new(params[:user])
     
     respond_to do |format|
       if @user.save
         UserMailer.created(@user).deliver
-        format.html { redirect_to :action=> 'profile', notice: 'User has been created, we send you a email to confirm your account' }  
-        format.html { render json: @user, status: :created, location: @user}
+        flash[:notice]= 'User has been created, we send you a email to confirm your account'
+        format.html { redirect_to :action=> 'profile'}  
+        format.json { render json: @user, status: :created, location: @user}
       else
         format.html { render action:'new'}
       end
@@ -44,6 +47,10 @@ class UsersController < ApplicationController
     else
       
     end
+  end
+  
+  def profile
+    
   end
 
 end

@@ -23,30 +23,46 @@
 	        </form>
 	        <ul class="nav pull-right">
 	            <li class="divider-vertical"></li>
-	            <li class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	              <ul class="dropdown-menu">
-	                <li><a href="#">Action</a></li>
-	                <li><a href="#">Another action</a></li>
-	                <li><a href="#">Something else here</a></li>
-	                <li class="divider"></li>
-	                <li><a href="#">Separated link</a></li>
-	              </ul>
-	            </li>
+	            <% if session[:user_id] %>
+	            	<li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= @current_user.username %> <b class="caret"></b></a>
+		              <ul class="dropdown-menu">
+		                <li><a href="#">Profile</a></li>
+		                <li><a href="#">Settings</a></li>
+		                <li class="divider"></li>
+		                <li><%= link_to 'Log out',logout_url %></li>
+		              </ul>
+		            </li>
+				<% end %>
 	        </ul>
           </div>
 	    </div>
 	  </div>
 	</div>
-	<div id="header" class="container">
-	  
-	</div>
+	<header>
+		<div class="notification notification_alert">
+	        <% if alert || flash[:notice] %>
+				<div class="container">
+		        	<span class=""> <%= alert || flash[:notice] %> </span>
+		        	<a class="close" href="#">&times;</a>
+		        </div>
+			<% end %>          
+	    </div>
+	</header>
 	<div id="content" class="container">
 	  <%= yield %>
 	</div>
 	<div id="footer" class="container">
 	  
 	</div>
-
+	<% if alert || flash[:notice] %>
+		 <script>
+		 	$('#content').css('margin-top','100px');
+		        $('.notification .close').click(function (){
+		        	$(".notification").fadeOut();
+		        	$('#content').animate( { marginTop:'60px' }, 500);
+		        });
+		 </script>
+	<% end %>
 </body>
 </html>

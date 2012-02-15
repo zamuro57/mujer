@@ -1,22 +1,26 @@
 W::Application.routes.draw do
-  root :to => 'users#profile'
-  #get   "/" => "users#profile"
-  get   "/login" => 'sessions#create'
-  post  "/login" => 'sessions#new'
-  get   "/logout" => 'sessions#destroy'
+  
+  root :to => 'welcome#index'
+  get "welcome/index"
+  get   "/profile" => "users#profile", :as => 'profile'
+  get   "/login" => 'sessions#create', :as => 'login'
+  post  "/login" => 'sessions#new', :as => 'login'
+  get   "/logout" => 'sessions#destroy', :as => 'logout'
   match '/auth/:provider/callback', :to => 'sessions#auth'
   match '/auth/failure', :to => 'sessions#failure'
   
   # Users Routes 
   resources :users do
-    get 'settings', :on => :collection
-  end
-  resources :posts do
-    resources :steps do 
-    
-    end  
+      get 'settings', :on => :collection
   end
   
+  scope '(:username)' do
+    resources :posts do
+      resources :steps do 
+      
+      end  
+    end
+  end
   match "/user/confirm/:email/:hash" => 'users#confirm'
   match '/:username' => 'users#show'
   
