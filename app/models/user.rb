@@ -12,8 +12,13 @@ class User < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true, email:true
   validates :name, presence: true
   validates :password, :length =>{ :in => 6..16}
+  has_many :posts
   has_secure_password
   
+  def to_params
+    username
+  end
+    
   def self.create_with_omniauth(auth)
     create! do |user|
       user.provider = auth["provider"]

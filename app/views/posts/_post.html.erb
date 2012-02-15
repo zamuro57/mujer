@@ -1,0 +1,11 @@
+<div class="post">
+	<h3 class="post_title"> <%= post.title %> </h3>
+	<div class="description"> <%= post.description %> </div>
+	<div class="details">
+		<span class="steps"> <%= post.steps.count %> </span>
+	</div>
+	<div class="actions">
+		<%= link_to 'Delete', post_path(post) ,confirm: 'Are you sure?', method: :delete, remote: true %>
+		<%= link_to 'Edit', edit_post_path(post) %>
+	</div>
+</div>

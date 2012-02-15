@@ -1,12 +1,7 @@
 <h1>Edit a Recipe</h1>
 
 <div id="post_edit">
-	<div id="notice">
-		<% if flash[:notice] %>
-			<%= flash[:notice] %>
-		<% end %>
-	</div>
-	<%= render 'new_form' %>
+	<%= render 'edit' %>
 </div>
 <div id="post_steps">
   <%= render @post.steps %>

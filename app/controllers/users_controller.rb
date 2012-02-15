@@ -10,13 +10,14 @@ class UsersController < ApplicationController
         UserMailer.created(@user).deliver
         flash[:notice]= 'User has been created, we send you a email to confirm your account'
         format.html { redirect_to :action=> 'profile'}  
-        format.json { render json: @user, status: :created, location: @user}
+        format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action:'new'}
       end
     end
   end
   
+  # Create de new user form get /users/new
   def new
     @user = User.new
     
@@ -26,16 +27,19 @@ class UsersController < ApplicationController
     end
   end
   
-  def index
-    
-  end
-  
+  # Show user profile
   def show
-    
+    render :text => "#{params[:id]}"
   end
   
+  # edit your profile and configuration
   def settings
   
+  end
+  
+  # Show your timeline (user home page)
+  def timeline
+    
   end
   
   def confirm
@@ -49,8 +53,4 @@ class UsersController < ApplicationController
     end
   end
   
-  def profile
-    
-  end
-
 end

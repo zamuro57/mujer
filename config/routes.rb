@@ -2,7 +2,7 @@ W::Application.routes.draw do
   
   root :to => 'welcome#index'
   get "welcome/index"
-  get   "/profile" => "users#profile", :as => 'profile'
+  get   "/timeline" => "users#timeline", :as => 'timeline'
   get   "/login" => 'sessions#create', :as => 'login'
   post  "/login" => 'sessions#new', :as => 'login'
   get   "/logout" => 'sessions#destroy', :as => 'logout'
@@ -10,19 +10,16 @@ W::Application.routes.draw do
   match '/auth/failure', :to => 'sessions#failure'
   
   # Users Routes 
-  resources :users do
+  resources :users , :except => [:index] do
       get 'settings', :on => :collection
+      get 'posts' => "posts#index", :on => :member
   end
   
-  scope '(:username)' do
-    resources :posts do
-      resources :steps do 
-      
-      end  
-    end
+  resources :posts do
+      resources :steps , :except => [:index]
   end
   match "/user/confirm/:email/:hash" => 'users#confirm'
-  match '/:username' => 'users#show'
+  get '/:username' , :to=> 'users#show'
   
   #post  "user" => 'user#create', as: 'users_new'
   #post  "user/new" => 'user#create', as: 'users_new'
