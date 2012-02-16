@@ -65,17 +65,13 @@
 	<%= javascript_include_tag "application" %>
 	<% if alert || flash[:notice] || notice %>
 		 <script>
-		 	$('.notification').show();
-		 	$('#content').css('margin-top','100px');
+		 	$(".notification").show();
+		 	$("#content").css('margin-top','100px');
 		 	$("#notificator_close").click(function (){
 			   	$(".notification").fadeOut();
 			   	$("#content").animate( { marginTop:"60px" }, 500);
 			});
 		 </script>
-	<% else %>
-		<script>
-			$('.notification').hide();
-		</script>
 	<% end %>
 </body>
 </html>

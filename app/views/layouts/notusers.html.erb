@@ -3,7 +3,6 @@
 <head>
   <title>Wuoman!</title>
   <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -27,9 +26,9 @@
 	</div>
 	<header>
 		<div class="notification notification_alert">
-	        <% if alert || flash[:notice] %>
+	        <% if alert || flash[:notice] || notice %>
 				<div class="container">
-		        	<span class=""> <%= alert || flash[:notice] %> </span>
+		        	<span id="notificator_close" class=""> <%= alert || flash[:notice] %> </span>
 		        	<a class="close" href="#">&times;</a>
 		        </div>
 			<% end %>          
@@ -41,14 +40,17 @@
 	<div id="footer" class="container">
 	  
 	</div>
-	<% if alert || flash[:notice] %>
-		 <script>
-		 	$('#content').css('margin-top','100px');
-		        $('.notification .close').click(function (){
-		        	$(".notification").fadeOut();
-		        	$('#content').animate( { marginTop:'60px' }, 500);
-		        });
-		 </script>
-	<% end %>
+	
+	<%= javascript_include_tag "application" %>
+	<% if alert || flash[:notice] || notice %>
+                 <script>
+                        $(".notification").fadeIn();
+                        $("#content").css('margin-top','100px');
+                        $("#notificator_close").click(function (){
+                                $(".notification").fadeOut();
+                                $("#content").animate( { marginTop:"60px" }, 500);
+                        });
+                 </script>
+        <% end %>
 </body>
 </html>
