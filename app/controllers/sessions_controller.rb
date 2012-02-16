@@ -44,6 +44,7 @@ class SessionsController < ApplicationController
   end
   def destroy
     session[:user_id] = nil
+    session[:fb_token] = nil
     flash[:notice]= 'You are log out.'
     respond_to do |format|
       format.html { redirect_to :action=> 'index',:controller => 'welcome'}
