@@ -1,11 +1,23 @@
-<div class="post">
-	<h3 class="post_title"> <%= post.title %> </h3>
+<div class="post vm1">
+	<h3 class="post_title"> 
+		<%= 
+		link_to_if session[:user_id], post.title, edit_post_path(post) do
+			link_to post.title, post_path(post) 
+		end
+		%> 
+	</h3>
+	<h6 clas="post_info">
+		<span class="created_at"> <%= time_ago_in_words post.created_at %> ago</span>
+		<% unless session[:user_id] %>
+		<span class="author"> <%= link_to post.user.name, user_path(post.user.username.downcase) %> </span>
+		<% end %>
+		<span class="steps"> Has <%= post.steps.count %> steps</span>
+	</h6>
+	
 	<div class="description"> <%= post.description %> </div>
-	<div class="details">
-		<span class="steps"> <%= post.steps.count %> </span>
-	</div>
-	<div class="actions">
-		<%= link_to 'Delete', post_path(post) ,confirm: 'Are you sure?', method: :delete, remote: true %>
-		<%= link_to 'Edit', edit_post_path(post) %>
-	</div>
+	<% if session[:user_id] %>
+		<div class="actions">
+			<%= link_to 'Delete', post_path(post) ,confirm: 'Are you sure?', method: :delete, remote: true %>
+		</div>
+	<% end %>
 </div>

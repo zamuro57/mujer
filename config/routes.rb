@@ -19,7 +19,7 @@ W::Application.routes.draw do
       resources :steps , :except => [:index]
   end
   match "/user/confirm/:email/:hash" => 'users#confirm'
-  get '/:username' , :to=> 'users#show'
+  get '/:username' , :to=> 'users#show', :as => 'profile'
   
   #post  "user" => 'user#create', as: 'users_new'
   #post  "user/new" => 'user#create', as: 'users_new'

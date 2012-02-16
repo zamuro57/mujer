@@ -7,8 +7,6 @@ class ApplicationController < ActionController::Base
     @current_user=User.find_by_id(session[:user_id])
     unless @current_user
       redirect_to login_url, notice: "Please Log In"
-    #else
-      #layout 'notusers'
     end
   end
   

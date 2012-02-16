@@ -1,2 +1,16 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+
+<h1><%= @post.title %></h1>
+<h6 clas="post_info">
+	<span class="created_at"> <%= time_ago_in_words @post.created_at %> ago</span>
+	<span class="author"> <%= link_to @post.user.name, user_path(@post.user.username.downcase) %> </span>
+</h6>
+<div class="description"></div>
+<% if @post.steps.count > 0 %>
+<div class="steps vm2">
+	<h2>Steps to Follow</h2>
+	<ol class="vm1">
+		<%= render @post.steps %>
+	</ol>
+</div>
+<% end %>
+

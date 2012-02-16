@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  
+  skip_before_filter :authorize, only: [:show]
   def index
     @user = User.find(session[:user_id])
     @posts = @user.posts
@@ -27,8 +27,7 @@ class PostsController < ApplicationController
     respond_to do |format|
       if @post.save
         flash[:notice] = "Successfully saved!"
-        format.html { redirect_to edit_post_path(@post) }
-        format.js   { redirect_to edit_post_path(@post) } 
+        format.html { redirect_to edit_post_path(@post) } 
       else
         format.html { render 'new' }
       end
@@ -36,6 +35,15 @@ class PostsController < ApplicationController
   end
 
   def show
+    @post = Post.find(params[:id])
+    respond_to do |format|
+      if @post
+        format.html # show.html.erb
+        format.json { render json:@post }
+      else
+        format.json { render :head => 'not found' }
+      end
+    end
   end
 
   def edit

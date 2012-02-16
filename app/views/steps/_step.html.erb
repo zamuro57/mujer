@@ -1,7 +1,11 @@
-<div class="step">
+<li class="step">
 	<h3> <%= step.title %> </h3>
-	<div class="step_content">
+	<div class="step_content vm1">
 		<%= step.content %>
 	</div>
-	<%= link_to 'Delete', [step.post, step] ,confirm: 'Are you sure?', method: :delete,remote: true %>
-</div>
+	<% if session[:user_id] %>
+	<div class="actions">
+		<%= link_to 'Delete', [step.post, step] ,confirm: 'Are you sure?', method: :delete,remote: true %>
+	</div>
+	<% end %>
+</li>

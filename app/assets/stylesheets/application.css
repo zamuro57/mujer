@@ -5,13 +5,21 @@
  *= require_self
  *= require_tree . 
 */
+
 @import url(http://fonts.googleapis.com/css?family=Amaranth:400,400italic,700,700italic);
+
+.vm1 { margin-top:10px;margin-bottom:10px;}
+.vm2 { margin-top:20px;margin-bottom:20px;}
+.vm3 { margin-top:30px;margin-bottom:30px;}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family:Amaranth;
 	font-weight:400;
 }
 
+.login_nav .float { float:left; margin-left:10px; margin-top:1px; }
+.login_nav form { height:18px; }
+.login_nav .mt { margin-top:5px; }
 #content {
 	margin-top:60px;
 }

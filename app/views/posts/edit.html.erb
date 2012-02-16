@@ -3,8 +3,10 @@
 <div id="post_edit">
 	<%= render 'edit' %>
 </div>
-<div id="post_steps">
-  <%= render @post.steps %>
+<div class="post_steps">
+	<ol id="post_steps">
+		<%= render @post.steps %>
+	</ol>
 </div>
 <div id="post_steps_form">
 	<%= render 'steps/new_form' %>

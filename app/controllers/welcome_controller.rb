@@ -6,6 +6,7 @@ class WelcomeController < ApplicationController
       redirect_to timeline_url
     else
       @user=User.new
+      @posts = Post.all()
     end
   end
 
