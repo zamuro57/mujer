@@ -29,7 +29,14 @@ class UsersController < ApplicationController
   
   # Show user profile
   def show
-    render :text => "#{params[:id]}"
+    if session[:user_id] 
+      authorize
+    end
+    @user= User.find_by_username(params[:id])
+    respond_to do |format|
+      format.html #render show.html.erb
+      format.json { render json:@user }
+    end
   end
   
   # edit your profile and configuration
