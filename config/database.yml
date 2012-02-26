@@ -9,7 +9,7 @@ development:
   ##database: db/development.sqlite3
   database: wuoman_developement
   username: root
-  password: sam737446
+  password: 123456
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
