@@ -32,9 +32,9 @@ W::Application.configure do
   config.action_mailer.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :domain               => 'foreachdeveloper.com',
-  :user_name            => 'master@foreachdeveloper.com',
-  :password             => 'sam737446',
+  :domain               => 'DOMINIO',
+  :user_name            => 'USUARIO',
+  :password             => 'PASSWORD',
   :authentication       => 'plain',
   :enable_starttls_auto => true  
   }
