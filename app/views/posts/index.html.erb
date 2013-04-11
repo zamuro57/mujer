@@ -1,0 +1,10 @@
+<% if @posts %>
+
+	<h1>Your Post</h1>
+	<div id="post_list">
+		<%= render @posts %>
+	</div>
+	
+<% else %>
+	<h3>You Dont have post yet</h3>
+<% end %>

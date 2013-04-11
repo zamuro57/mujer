@@ -1,0 +1,12 @@
+
+<%= form_for(@post) do |f| %>
+
+	<div class="field">
+		<%= f.label 'Recipe Title' %>
+		<%= f.text_field :title,size: 40, :class => 'span5' %>
+		<%= f.submit :class => 'btn' %>
+	</div>
+	
+<% end %>
+
+	

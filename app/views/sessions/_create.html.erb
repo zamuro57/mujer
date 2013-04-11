@@ -1,0 +1,16 @@
+<h1>You have an account, just login</h1>
+
+<%= form_tag login_url, :method=> 'post' do %>
+	<div>
+		<label for="name">Name:</label>
+		<%= text_field_tag :username, params[:username] %>
+	</div>
+	<div>
+		<label for="password">Password:</label>
+		<%= password_field_tag :password, params[:password] %>
+	</div>
+	<div>
+		<%= submit_tag 'Login',:class=>'btn' %>
+	</div>
+<% end %>
+<p><%= link_to "Connect With Facebook", "/auth/facebook", :class => 'float btn btn-primary' %></p>

@@ -1,0 +1,36 @@
+<%= form_for(@user, :url=>{:action => "new"}) do |f| %>
+	<% if @user.errors.any? %>
+		<div id="error_explain">
+			<h2> <%= pluralize(@user.errors.count, "error") %> </h2>
+		</div>
+	<% end %>
+	
+	<div class="field">
+		<%= f.label 'Username' %>
+		<%= f.text_field :username,size: 20 %>
+	</div>
+	<div class="field">
+		<%= f.label 'Full Name' %>
+		<%= f.text_field :name,size: 40 %>
+	</div>
+	<div class="field">
+		<%= f.label 'Email' %>
+		<%= f.email_field :email,size: 40 %>
+	</div>
+	<div class="field">
+    	<%= f.label 'Password' %>
+    	<%= f.password_field :password, size:40 %>
+    	<% unless @user.errors.messages[:password_digest] === nil  %>
+			<span class="validation-error"> 
+				<%= @user.errors.messages[:password_digest].each { |msg| msg }.join(", ") %>
+			</span>
+		<% end %>
+  	</div>
+	<div class="field">
+		<%= f.label :password_confirmation, 'Confirm your password' %>
+		<%= f.password_field :password_confirmation, size:40 %>
+	</div>
+	<div class="actions">
+		<%= f.submit %>
+	</div>
+<% end %>
