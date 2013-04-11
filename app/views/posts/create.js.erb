@@ -1,0 +1,6 @@
+$('.notification').html("<%=j render 'layouts/notification'%>");
+$('.notification').fadeIn();
+$("#notificator_close").click(function (){
+	$(".notification").fadeOut();
+	$("#content").animate( { marginTop:"60px" }, 500);
+});

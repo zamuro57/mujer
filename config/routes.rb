@@ -1,14 +1,31 @@
 W::Application.routes.draw do
-  get "user/login"
   
-  get "user/create"
-
-  post "user/new"
-
-  get "user/profile"
-
-  get "user/settings"
-
+  root :to => 'welcome#index'
+  get "welcome/index"
+  get   "/timeline" => "users#timeline", :as => 'timeline'
+  get   "/login" => 'sessions#create', :as => 'login'
+  post  "/login" => 'sessions#new', :as => 'login'
+  get   "/logout" => 'sessions#destroy', :as => 'logout'
+  match '/auth/:provider/callback', :to => 'sessions#auth'
+  match '/auth/failure', :to => 'sessions#failure'
+  
+  # Users Routes 
+  resources :users , :except => [:index] do
+      get 'settings', :on => :collection
+      get 'posts' => "posts#index", :on => :member
+  end
+  
+  resources :posts do
+      resources :steps , :except => [:index]
+  end
+  match "/user/confirm/:email/:hash" => 'users#confirm'
+  get '/:username' , :to=> 'users#show', :as => 'profile'
+  
+  #post  "user" => 'user#create', as: 'users_new'
+  #post  "user/new" => 'user#create', as: 'users_new'
+  #get   "user/new" => 'user#new', as: 'users_new'
+  #get   "user" => 'user#profile', as: 'users'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

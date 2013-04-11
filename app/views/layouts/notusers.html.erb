@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wuoman! Alpha</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
+	    <div class="container">
+	      <a class="brand" href="<%= root_url %>">Wuoman!</a>
+	      <div class="nav-collapse">
+            <ul class="nav">
+            	<li class="divider-vertical"></li>
+            </ul>
+            <form class="navbar-search pull-left" action="">
+	        	<input type="text" class="search-query span2" placeholder="Search">
+	        </form>
+	        <ul class="nav pull-right login_nav">
+	            <% if session[:user_id] %>
+	            <li class="divider-vertical"></li>
+	            	<li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= @current_user.username %> <b class="caret"></b></a>
+		              <ul class="dropdown-menu">
+		                <li><a href="#">Profile</a></li>
+		                <li><a href="#">Settings</a></li>
+		                <li class="divider"></li>
+		                <li><%= link_to 'Log out',logout_url %></li>
+		              </ul>
+		            </li>
+		        <% else %>
+			        <li class="divider-vertical"></li>
+		            <%= form_tag login_url, :method=> 'post', :class => 'float' do %>
+		            <%= text_field_tag :username, params[:username],:placeholder => 'Username', :class => 'span2 float mt' %>
+			        <%= password_field_tag :password, params[:password],:placeholder => 'Password', :class => 'span2 float mt' %>
+			        <%= submit_tag 'Login',:class=>'btn float' %>
+		           	<% end %>
+					<%= link_to "F", "/auth/facebook", :class => 'float btn btn-primary' %>
+				<% end %>
+		    </ul>
+	       </div>
+	    </div>
+	  </div>
+	</div>
+	<header>
+		<div class="notification notification_alert">
+	        <% if alert || flash[:notice] || notice %>
+				<div class="container">
+		        	<span class=""> <%= alert || flash[:notice] %> </span>
+		        	<a id="notificator_close" class="close" href="#">&times;</a>
+		        </div>
+			<% end %>          
+	    </div>
+	</header>
+	<div id="content" class="container">
+		<%= yield %>
+	</div>
+	<div id="footer" class="container">
+	  
+	</div>
+	
+	<%= javascript_include_tag "application" %>
+	<% if alert || flash[:notice] || notice %>
+                 <script>
+                        $(".notification").fadeIn();
+                        $("#content").css('margin-top','100px');
+                        $("#notificator_close").click(function (){
+                                $(".notification").fadeOut();
+                                $("#content").animate( { marginTop:"60px" }, 500);
+                        });
+                 </script>
+        <% end %>
+</body>
+</html>

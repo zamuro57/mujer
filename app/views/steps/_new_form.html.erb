@@ -1,0 +1,12 @@
+	<h2>Add a Step:</h2>
+	<%= form_for([@post, @post.steps.build] , :remote => true) do |f| %>
+	  <div class="field">
+	    <%= f.text_field :title, :class => 'span6',:placeholder => 'Title' %>
+	  </div>
+	  <div class="field">
+	    <%= f.text_area :content, :class => 'span6', :placeholder => 'Description' %>
+	  </div>
+	  <div class="actions">
+	    <%= f.submit  :class => 'btn',:disable_with => 'Saving Step …' %>
+	  </div>
+	<% end %>

@@ -1,0 +1,23 @@
+<h1 id="welcome">Welcome to Wouman!</h1>
+
+<div class="row">
+	<div id="welcome_description" class="span8">
+		
+		<div class="vm2">
+			<%= image_tag '16_Col_Wuoman-01.png' %>
+		</div>
+		
+		<div id="last_post">
+			<h2>Last Recipes</h2>
+			<%= render @posts %>
+		</div>
+		
+	</div>
+	<div id="welcome_login" class="span4">
+		<%= render 'sessions/create_nolabel' %>
+		<h3> Are you new? <small>Sign Up</small></h3>
+		<%= render 'users/new_nolabel' %>
+	</div>	
+</div>
+
+

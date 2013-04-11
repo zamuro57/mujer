@@ -1,0 +1,8 @@
+$('.notification').html("<%=j render 'layouts/notification' %>");
+$('.notification').fadeIn();
+$('#content').animate( { marginTop:"100px" }, 500);
+$("#notificator_close").click(function (){
+	$(".notification").fadeOut();
+	$("#content").animate( { marginTop:"60px" }, 500);
+	<% flash[:notice]=nil %>
+});

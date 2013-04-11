@@ -1,0 +1,11 @@
+<%= form_tag login_url, :method=> 'post' do%>
+	<div>
+		<%= text_field_tag :username, params[:username],:placeholder => 'Username', :class => 'span4' %>
+	</div>
+	<div>
+		<%= password_field_tag :password, params[:password],:placeholder => 'Password', :class => 'span3' %>
+		<%= submit_tag 'Login',:class=>'btn span1',:id => 'welcome_login_btn' %>
+	</div>
+<% end %>
+
+<p><%= link_to "Connect With Facebook", "/auth/facebook", :class => 'float btn btn-primary' %></p>
